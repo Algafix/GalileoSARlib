@@ -1,0 +1,86 @@
+import argparse
+from bitstring import BitArray
+
+from input_modules.input_sbf import SBF
+from input_modules.base_class import SARFormat
+from aux.protocol_parsing import parse_beacon_id
+from aux.aux_classes import RLM, MESSAGE_CODES, GST
+from aux.json_templates import print_sar_message, BASE_SAR_MESSAGE
+
+class SARMessage:
+    
+    def __init__(self, svid: int) -> None:
+        self.current_message = BitArray()
+        self.rlm_id = RLM(0)
+        self.last_gst = GST()
+        self.svid = svid
+
+    def _start_message(self, sar_data: SARFormat):
+        self.current_message.clear()
+        self.rlm_id = sar_data.rlm_id
+        self.last_gst = sar_data.gst
+        self.current_message.append(sar_data.rlm_data)
+
+    def _is_sync(self, sar_data: SARFormat) -> bool:
+        return (sar_data.gst == self.last_gst + 2) and (sar_data.rlm_id == self.rlm_id)
+
+    def _is_complete(self):
+        return (self.rlm_id == RLM.SHORT_RLM and len(self.current_message) == 80 or 
+                self.rlm_id == RLM.LONG_RLM and len(self.current_message) == 160)
+
+    def new_sar_data(self, sar_data: SARFormat):
+
+        if sar_data.start_bit:
+            self._start_message(sar_data)
+            return
+        if not self._is_sync(sar_data):
+            return
+
+        self.current_message.append(sar_data.rlm_data)
+        self.last_gst = sar_data.gst
+
+        if self._is_complete():
+            self._parse_SAR_message()
+
+    def _parse_SAR_message(self):
+
+        beacon_id = self.current_message[:60]
+        message_code = MESSAGE_CODES(self.current_message[60:64].bin)
+        SRLM_params = self.current_message[64:]
+
+        # if message_code == MESSAGE_CODES.TEST_SERVICE:
+        #     return None
+        
+        sar_message_dict = dict(BASE_SAR_MESSAGE)
+        sar_message_dict['metadata']['wn'] = self.last_gst.wn
+        sar_message_dict['metadata']['tow'] = self.last_gst.tow
+        sar_message_dict['metadata']['svid'] = f"{self.svid:02d}"
+        sar_message_dict['rlm_id']['value'] = self.rlm_id.name
+        sar_message_dict['rlm_id']['raw_value'] = self.rlm_id.value
+        sar_message_dict['beacon_id']['raw_value'] = beacon_id.hex
+        sar_message_dict['message_code']['value'] = message_code.name
+        sar_message_dict['message_code']['raw_value'] = message_code.value
+        sar_message_dict['rlm_params']['raw_value'] = SRLM_params.bin
+
+        sar_message_dict['beacon_id_parsing_subblock'] = parse_beacon_id(beacon_id)
+
+        print_sar_message(sar_message_dict)
+
+
+parser = argparse.ArgumentParser(description='Parse the Galileo I/NAV message for E1-B to extract and parse the SAR information.')
+parser.add_argument('in_file', nargs='?', default='24_hours.sbf')
+args = parser.parse_args()
+
+if __name__ == '__main__':
+
+    sbf_iterator = SBF(args.in_file)
+
+    SAR_messages = []
+    sar_manager_svid = [SARMessage(svid) for svid in range(37)]
+    
+    for sar_data in sbf_iterator:
+
+        if not sar_data.is_nominal_page:
+            continue
+        
+        sar_manager_svid[sar_data.svid].new_sar_data(sar_data)

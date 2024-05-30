@@ -1,0 +1,3971 @@
+{
+  "1": {
+    "tac_num": "1",
+    "model_name": "Tron 30S",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "2": {
+    "tac_num": "2",
+    "model_name": "RT 160M",
+    "manufacturer": "Nova Marine Systems Ltd. (not in busines, see Orolia Limited,UK)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1994-06-27",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "3": {
+    "tac_num": "3",
+    "model_name": "BSU 85",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "4": {
+    "tac_num": "4",
+    "model_name": "SDT 460 M",
+    "manufacturer": "Sextant Ltd (not in business)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "5": {
+    "tac_num": "5",
+    "model_name": "Kannad 406",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "6": {
+    "tac_num": "6",
+    "model_name": "SDT 406 A",
+    "manufacturer": "Sextant Ltd (not in business)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "7": {
+    "tac_num": "7",
+    "model_name": "Kannad 406 F",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "8": {
+    "tac_num": "8",
+    "model_name": "CPT-600M",
+    "manufacturer": "Caledonian Airborne Systems Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "9": {
+    "tac_num": "9",
+    "model_name": "BSP 86",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1992-11-09",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "10": {
+    "tac_num": "10",
+    "model_name": "406 P",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "11": {
+    "tac_num": "11",
+    "model_name": "406 M",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "12": {
+    "tac_num": "12",
+    "model_name": "406 H",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1992-11-09",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "13": {
+    "tac_num": "13",
+    "model_name": "Kannad 406 S",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "14": {
+    "tac_num": "14",
+    "model_name": "Kannad 406 F",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "15": {
+    "tac_num": "15",
+    "model_name": "JQE-2A",
+    "manufacturer": "Japan Radio Co. Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "16": {
+    "tac_num": "16",
+    "model_name": "M 02",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-07",
+    "navigation": "N/A"
+  },
+  "17": {
+    "tac_num": "17",
+    "model_name": "RLB-23",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-14",
+    "navigation": "N/A"
+  },
+  "18": {
+    "tac_num": "18",
+    "model_name": "RLB-24",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-07-14",
+    "navigation": "N/A"
+  },
+  "19": {
+    "tac_num": "19",
+    "model_name": "948",
+    "manufacturer": "The Guest Company Inc. (not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1992-07-10",
+    "issue_date": "1989-07-14",
+    "navigation": "N/A"
+  },
+  "20": {
+    "tac_num": "20",
+    "model_name": "S06",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "ELT (Man)",
+    "last_rev_date": "1995-08-14",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "21": {
+    "tac_num": "21",
+    "model_name": "JQE-2A",
+    "manufacturer": "Japan Radio Co. Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "22": {
+    "tac_num": "22",
+    "model_name": "Kannad 406 S",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "23": {
+    "tac_num": "23",
+    "model_name": "Kannad 406 F",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "24": {
+    "tac_num": "24",
+    "model_name": "M 04",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "25": {
+    "tac_num": "25",
+    "model_name": "406 P(Y)",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "26": {
+    "tac_num": "26",
+    "model_name": "406 M(Y)",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "27": {
+    "tac_num": "27",
+    "model_name": "406 H(Y)",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "28": {
+    "tac_num": "28",
+    "model_name": "RT 161M",
+    "manufacturer": "Nova Marine Systems Ltd. (not in busines, see Orolia Limited,UK)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1994-06-27",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "29": {
+    "tac_num": "29",
+    "model_name": "948",
+    "manufacturer": "The Guest Company Inc. (not in business)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1992-07-10",
+    "issue_date": "1989-10-09",
+    "navigation": "N/A"
+  },
+  "30": {
+    "tac_num": "30",
+    "model_name": "JQE-2A",
+    "manufacturer": "Japan Radio Co. Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1990-01-08",
+    "navigation": "N/A"
+  },
+  "31": {
+    "tac_num": "31",
+    "model_name": "RT 160",
+    "manufacturer": "Nova Marine Systems Ltd. (not in busines, see Orolia Limited,UK)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1994-06-27",
+    "issue_date": "1990-02-16",
+    "navigation": "N/A"
+  },
+  "32": {
+    "tac_num": "32",
+    "model_name": "RT 161",
+    "manufacturer": "Nova Marine Systems Ltd. (not in busines, see Orolia Limited,UK)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1994-06-27",
+    "issue_date": "1990-02-16",
+    "navigation": "N/A"
+  },
+  "33": {
+    "tac_num": "33",
+    "model_name": "CPT 600N",
+    "manufacturer": "Caledonian Airborne Systems Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1990-04-12",
+    "navigation": "N/A"
+  },
+  "34": {
+    "tac_num": "34",
+    "model_name": "MT06",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1995-08-14",
+    "issue_date": "1990-04-12",
+    "navigation": "N/A"
+  },
+  "35": {
+    "tac_num": "35",
+    "model_name": "Kannad 406 FH",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1990-04-30",
+    "navigation": "N/A"
+  },
+  "36": {
+    "tac_num": "36",
+    "model_name": "ARB-MK",
+    "manufacturer": "Musson-Exim Co.(not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1990-08-02",
+    "navigation": "N/A"
+  },
+  "37": {
+    "tac_num": "37",
+    "model_name": "C-2277",
+    "manufacturer": "Toyo Communication Equipment Inc. Co (not in business, see Mitsubishi Electric TOKKI System Corporation, Japan)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1992-07-10",
+    "issue_date": "1990-08-02",
+    "navigation": "N/A"
+  },
+  "38": {
+    "tac_num": "38",
+    "model_name": "L-1000",
+    "manufacturer": "MPR Teltech Ltd. (not in business - see ACR Electronics, USA)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1990-08-20",
+    "navigation": "N/A"
+  },
+  "39": {
+    "tac_num": "39",
+    "model_name": "Kannad 406 S",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1998-03-11",
+    "issue_date": "1990-11-05",
+    "navigation": "N/A"
+  },
+  "40": {
+    "tac_num": "40",
+    "model_name": "Kannad 406 F",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1998-03-11",
+    "issue_date": "1990-11-05",
+    "navigation": "N/A"
+  },
+  "41": {
+    "tac_num": "41",
+    "model_name": "Kannad 406 FH",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1998-03-11",
+    "issue_date": "1990-11-05",
+    "navigation": "N/A"
+  },
+  "42": {
+    "tac_num": "42",
+    "model_name": "Kannad 406 ATP",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1990-11-05",
+    "navigation": "N/A"
+  },
+  "43": {
+    "tac_num": "43",
+    "model_name": "SATFIND-406 M",
+    "manufacturer": "MPR Teltech Ltd. (not in business - see ACR Electronics, USA)",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "1995-09-14",
+    "issue_date": "1990-11-16",
+    "navigation": "N/A"
+  },
+  "44": {
+    "tac_num": "44",
+    "model_name": "H-06",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-03-14",
+    "navigation": "N/A"
+  },
+  "45": {
+    "tac_num": "45",
+    "model_name": "SEVT-406",
+    "manufacturer": "Bitova Electronic Co. (not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-03-14",
+    "navigation": "N/A"
+  },
+  "46": {
+    "tac_num": "46",
+    "model_name": "ARB-PK",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-03-14",
+    "navigation": "N/A"
+  },
+  "47": {
+    "tac_num": "47",
+    "model_name": "ARB-PK1",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-03-14",
+    "navigation": "N/A"
+  },
+  "48": {
+    "tac_num": "48",
+    "model_name": "ARB-PK10",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-03-14",
+    "navigation": "N/A"
+  },
+  "49": {
+    "tac_num": "49",
+    "model_name": "JQE-2A",
+    "manufacturer": "Japan Radio Co. Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-04-05",
+    "navigation": "N/A"
+  },
+  "50": {
+    "tac_num": "50",
+    "model_name": "Tron 30 S mkII",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-04-15",
+    "navigation": "N/A"
+  },
+  "51": {
+    "tac_num": "51",
+    "model_name": "P-07",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-04-15",
+    "navigation": "N/A"
+  },
+  "52": {
+    "tac_num": "52",
+    "model_name": "ARB-PC",
+    "manufacturer": "Musson-Exim Co.(not in business)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-04-27",
+    "navigation": "N/A"
+  },
+  "53": {
+    "tac_num": "53",
+    "model_name": "LDT 62",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1993-03-26",
+    "issue_date": "1991-09-30",
+    "navigation": "N/A"
+  },
+  "54": {
+    "tac_num": "54",
+    "model_name": "406 PF(Y)",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-10-04",
+    "navigation": "N/A"
+  },
+  "55": {
+    "tac_num": "55",
+    "model_name": "Honeywell ECB",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1991-12-06",
+    "navigation": "N/A"
+  },
+  "56": {
+    "tac_num": "56",
+    "model_name": "REB-22",
+    "manufacturer": "Taiyo Musen Co. Ltd. (not in business - see Mitsubishi Electric TOKKI Systems Corporation, Japan)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2001-08-08",
+    "issue_date": "1991-12-06",
+    "navigation": "N/A"
+  },
+  "57": {
+    "tac_num": "57",
+    "model_name": "952-02",
+    "manufacturer": "The Guest Company Inc. (not in business)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1996-04-19",
+    "issue_date": "1991-12-06",
+    "navigation": "N/A"
+  },
+  "58": {
+    "tac_num": "58",
+    "model_name": "Avmar M1-406",
+    "manufacturer": "Aviation and Marine (not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-02-06",
+    "navigation": "N/A"
+  },
+  "59": {
+    "tac_num": "59",
+    "model_name": "ARB-MKS Afalina",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-02-06",
+    "navigation": "N/A"
+  },
+  "60": {
+    "tac_num": "60",
+    "model_name": "ARB-PKE Excom",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-02-06",
+    "navigation": "N/A"
+  },
+  "61": {
+    "tac_num": "61",
+    "model_name": "ARB-M",
+    "manufacturer": "Musson-Exim Co.(not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-02-06",
+    "navigation": "N/A"
+  },
+  "62": {
+    "tac_num": "62",
+    "model_name": "Musson-501",
+    "manufacturer": "Musson-Exim Co.(not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-04-16",
+    "navigation": "N/A"
+  },
+  "63": {
+    "tac_num": "63",
+    "model_name": "406 MH(Y)",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-05-28",
+    "navigation": "N/A"
+  },
+  "64": {
+    "tac_num": "64",
+    "model_name": "406 M(Y)E",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-05-28",
+    "navigation": "N/A"
+  },
+  "65": {
+    "tac_num": "65",
+    "model_name": "406 MH(Y)E",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-05-28",
+    "navigation": "N/A"
+  },
+  "66": {
+    "tac_num": "66",
+    "model_name": "Tron 30 S mkII",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-07-22",
+    "navigation": "N/A"
+  },
+  "67": {
+    "tac_num": "67",
+    "model_name": "ELT 110-406",
+    "manufacturer": "Artex Aircraft Supplies, Inc (not in business, see ACR Electronics )",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2000-06-13",
+    "issue_date": "1992-10-05",
+    "navigation": "N/A"
+  },
+  "68": {
+    "tac_num": "68",
+    "model_name": "COSPAS-ARB-MK1",
+    "manufacturer": "Musson-Exim Co.(not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-10-12",
+    "navigation": "N/A"
+  },
+  "69": {
+    "tac_num": "69",
+    "model_name": "M-05 Sealife",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-11-09",
+    "navigation": "N/A"
+  },
+  "71": {
+    "tac_num": "71",
+    "model_name": "SATFIND-406 Pocket PLB",
+    "manufacturer": "Northern Airborne Technology Ltd.(not in business)",
+    "beacon_type": "PLB",
+    "last_rev_date": "1996-07-26",
+    "issue_date": "1992-11-16",
+    "navigation": "N/A"
+  },
+  "72": {
+    "tac_num": "72",
+    "model_name": "RT260",
+    "manufacturer": "Nova Marine Systems Ltd. (not in busines, see Orolia Limited,UK)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1997-12-04",
+    "issue_date": "1992-11-20",
+    "navigation": "N/A"
+  },
+  "73": {
+    "tac_num": "73",
+    "model_name": "952-01",
+    "manufacturer": "The Guest Company Inc. (not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1996-04-19",
+    "issue_date": "1992-11-30",
+    "navigation": "N/A"
+  },
+  "74": {
+    "tac_num": "74",
+    "model_name": "ELT 97",
+    "manufacturer": "Air Precision",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2010-04-13",
+    "issue_date": "1992-12-09",
+    "navigation": "N/A"
+  },
+  "75": {
+    "tac_num": "75",
+    "model_name": "406-2M",
+    "manufacturer": "Lokata Ltd. (not in business, maintenance by Sartech)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1997-09-24",
+    "issue_date": "1992-12-09",
+    "navigation": "N/A"
+  },
+  "76": {
+    "tac_num": "76",
+    "model_name": "952-23",
+    "manufacturer": "Litton Special Devices (not in business)",
+    "beacon_type": "ELT (Man)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1992-12-09",
+    "navigation": "N/A"
+  },
+  "77": {
+    "tac_num": "77",
+    "model_name": "TP 2",
+    "manufacturer": "SKANTI Ltd. (not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1995-12-04",
+    "issue_date": "1993-02-24",
+    "navigation": "N/A"
+  },
+  "78": {
+    "tac_num": "78",
+    "model_name": "SATFIND-406 Survival EPIRB",
+    "manufacturer": "Northern Airborne Technology Ltd.(not in business)",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "1996-07-26",
+    "issue_date": "1993-08-11",
+    "navigation": "N/A"
+  },
+  "79": {
+    "tac_num": "79",
+    "model_name": "MO56",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1995-08-14",
+    "issue_date": "1993-08-11",
+    "navigation": "N/A"
+  },
+  "80": {
+    "tac_num": "80",
+    "model_name": "JQE-3A-J",
+    "manufacturer": "Japan Radio Co. Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2008-05-21",
+    "issue_date": "1993-12-03",
+    "navigation": "N/A"
+  },
+  "81": {
+    "tac_num": "81",
+    "model_name": "ENASAT-406 M",
+    "manufacturer": "ENA Telecomunicaciones S.A.(not in business)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1994-01-31",
+    "navigation": "N/A"
+  },
+  "82": {
+    "tac_num": "82",
+    "model_name": "RLB 23E1",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1994-05-03",
+    "navigation": "N/A"
+  },
+  "83": {
+    "tac_num": "83",
+    "model_name": "RLB-27",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "1995-06-07",
+    "issue_date": "1994-10-14",
+    "navigation": "N/A"
+  },
+  "84": {
+    "tac_num": "84",
+    "model_name": "RLB-28",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "1995-06-07",
+    "issue_date": "1994-10-14",
+    "navigation": "N/A"
+  },
+  "85": {
+    "tac_num": "85",
+    "model_name": "Locat LDT62A",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1994-11-16",
+    "navigation": "N/A"
+  },
+  "86": {
+    "tac_num": "86",
+    "model_name": "REB-23-02",
+    "manufacturer": "Taiyo Musen Co. Ltd. (not in business - see Mitsubishi Electric TOKKI Systems Corporation, Japan)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2001-08-08",
+    "issue_date": "1994-11-16",
+    "navigation": "N/A"
+  },
+  "87": {
+    "tac_num": "87",
+    "model_name": "REB-24",
+    "manufacturer": "Taiyo Musen Co. Ltd. (not in business - see Mitsubishi Electric TOKKI Systems Corporation, Japan)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2001-08-08",
+    "issue_date": "1994-11-16",
+    "navigation": "N/A"
+  },
+  "88": {
+    "tac_num": "88",
+    "model_name": "RESCU 406",
+    "manufacturer": "Honeywell Aerospace Canada",
+    "beacon_type": "ELT (Man)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1995-05-31",
+    "navigation": "N/A"
+  },
+  "89": {
+    "tac_num": "89",
+    "model_name": "P076",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1995-08-14",
+    "navigation": "N/A"
+  },
+  "90": {
+    "tac_num": "90",
+    "model_name": "ADELT CPT 609",
+    "manufacturer": "Caledonian Airborne Systems Ltd.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1995-10-17",
+    "navigation": "N/A"
+  },
+  "91": {
+    "tac_num": "91",
+    "model_name": "Kannad 406 ATP",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1995-10-17",
+    "navigation": "N/A"
+  },
+  "92": {
+    "tac_num": "92",
+    "model_name": "Kannad 406 m",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "PLB / Non FF EPIRB",
+    "last_rev_date": "2002-11-18",
+    "issue_date": "1995-11-17",
+    "navigation": "N/A"
+  },
+  "93": {
+    "tac_num": "93",
+    "model_name": "SATFIND-406 ELT Model A-1000",
+    "manufacturer": "Northern Airborne Technology Ltd.(not in business)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "1996-10-02",
+    "issue_date": "1996-01-24",
+    "navigation": "N/A"
+  },
+  "94": {
+    "tac_num": "94",
+    "model_name": "EB-10",
+    "manufacturer": "Saracom Co., Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2003-01-24",
+    "issue_date": "1996-09-02",
+    "navigation": "N/A"
+  },
+  "95": {
+    "tac_num": "95",
+    "model_name": "TRON 40S",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1997-02-11",
+    "navigation": "N/A"
+  },
+  "96": {
+    "tac_num": "96",
+    "model_name": "SM-511",
+    "manufacturer": "State Designer's Bureau of Radiocommunication (not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1997-02-11",
+    "navigation": "N/A"
+  },
+  "97": {
+    "tac_num": "97",
+    "model_name": "ELT503-1",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2008-04-10",
+    "issue_date": "1997-07-15",
+    "navigation": "Ext"
+  },
+  "98": {
+    "tac_num": "98",
+    "model_name": "TRON 45 SX",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1997-10-25",
+    "navigation": "N/A"
+  },
+  "99": {
+    "tac_num": "99",
+    "model_name": "TRON 45 S",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1997-10-29",
+    "navigation": "N/A"
+  },
+  "100": {
+    "tac_num": "100",
+    "model_name": "639 SIU",
+    "manufacturer": "AMS Limited (not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2004-09-24",
+    "issue_date": "1998-10-29",
+    "navigation": "N/A"
+  },
+  "101": {
+    "tac_num": "101",
+    "model_name": "Kannad 406 XS",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB / ELT (Man) / PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1998-01-05",
+    "navigation": "N/A"
+  },
+  "102": {
+    "tac_num": "102",
+    "model_name": "SATFIND-406 GPIRB",
+    "manufacturer": "Northern Airborne Technology Ltd.(not in business)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2000-02-29",
+    "issue_date": "1998-04-28",
+    "navigation": "Int"
+  },
+  "103": {
+    "tac_num": "103",
+    "model_name": "PLB500-4",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2006-05-29",
+    "issue_date": "1998-05-06",
+    "navigation": "N/A"
+  },
+  "104": {
+    "tac_num": "104",
+    "model_name": "ELT 110-406 NAV",
+    "manufacturer": "Artex Aircraft Supplies, Inc (not in business, see ACR Electronics )",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1998-05-25",
+    "navigation": "Ext"
+  },
+  "105": {
+    "tac_num": "105",
+    "model_name": "Kannad 406 AF",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2019-04-23",
+    "issue_date": "1998-09-11",
+    "navigation": "N/A"
+  },
+  "106": {
+    "tac_num": "106",
+    "model_name": "E3m",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2002-07-04",
+    "issue_date": "1999-01-26",
+    "navigation": "N/A"
+  },
+  "107": {
+    "tac_num": "107",
+    "model_name": "RLB-32 (Class 2)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "1999-04-19",
+    "navigation": "N/A"
+  },
+  "108": {
+    "tac_num": "108",
+    "model_name": "RLB-33",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2002-07-16",
+    "issue_date": "1999-04-19",
+    "navigation": "Ext"
+  },
+  "109": {
+    "tac_num": "109",
+    "model_name": "RLB-100",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2002-07-16",
+    "issue_date": "1999-04-29",
+    "navigation": "Ext"
+  },
+  "110": {
+    "tac_num": "110",
+    "model_name": "MBT-040600-48",
+    "manufacturer": "Microwave Monolithics, Inc",
+    "beacon_type": "PLB",
+    "last_rev_date": "2008-03-10",
+    "issue_date": "1999-06-16",
+    "navigation": "Ext"
+  },
+  "111": {
+    "tac_num": "111",
+    "model_name": "500-27PELS",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "ELT(Man)/PLB",
+    "last_rev_date": "2007-07-16",
+    "issue_date": "1999-07-20",
+    "navigation": "Int"
+  },
+  "112": {
+    "tac_num": "112",
+    "model_name": "G406-4",
+    "manufacturer": "Artex Aircraft Supplies, Inc (not in business, see ACR Electronics )",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2003-09-01",
+    "issue_date": "1999-07-20",
+    "navigation": "Ext"
+  },
+  "113": {
+    "tac_num": "113",
+    "model_name": "MBT-040600A-48",
+    "manufacturer": "Microwave Monolithics, Inc",
+    "beacon_type": "PLB",
+    "last_rev_date": "2008-03-10",
+    "issue_date": "1999-08-25",
+    "navigation": "N/A"
+  },
+  "114": {
+    "tac_num": "114",
+    "model_name": "MBT-040600B-48",
+    "manufacturer": "Microwave Monolithics, Inc",
+    "beacon_type": "PLB",
+    "last_rev_date": "2008-03-10",
+    "issue_date": "1999-08-25",
+    "navigation": "Ext"
+  },
+  "115": {
+    "tac_num": "115",
+    "model_name": "MBT-040600C-48",
+    "manufacturer": "Microwave Monolithics, Inc",
+    "beacon_type": "PLB",
+    "last_rev_date": "2008-03-10",
+    "issue_date": "1999-08-25",
+    "navigation": "N/A"
+  },
+  "116": {
+    "tac_num": "116",
+    "model_name": "T-1630/SRT Buoy, Radio Transmitting SEPIRB",
+    "manufacturer": "Ultra Electronics Ocean Systems",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1999-12-08",
+    "navigation": "not documented "
+  },
+  "117": {
+    "tac_num": "117",
+    "model_name": "SEP-406",
+    "manufacturer": "Samyung ENC Co., Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1999-12-17",
+    "navigation": "N/A"
+  },
+  "118": {
+    "tac_num": "118",
+    "model_name": "SERB MkII",
+    "manufacturer": "ADI Limited (not in business)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2000-03-03",
+    "navigation": "N/A"
+  },
+  "119": {
+    "tac_num": "119",
+    "model_name": "G4m",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2007-04-18",
+    "issue_date": "2000-06-30",
+    "navigation": "Int"
+  },
+  "120": {
+    "tac_num": "120",
+    "model_name": "A 1500 SATFIND-406 ELT",
+    "manufacturer": "Northern Airborne Technology Ltd.(not in business)",
+    "beacon_type": "ELT",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2000-09-27",
+    "navigation": "Ext"
+  },
+  "121": {
+    "tac_num": "121",
+    "model_name": "BAU-35A",
+    "manufacturer": "DRS Technologies Canada Ltd. (former DRS Flight Safety & Communications)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2002-10-17",
+    "issue_date": "2000-10-03",
+    "navigation": "Ext"
+  },
+  "122": {
+    "tac_num": "122",
+    "model_name": "TRON 40 GPS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2000-11-08",
+    "navigation": "Int"
+  },
+  "123": {
+    "tac_num": "123",
+    "model_name": "PROFind 406",
+    "manufacturer": "Seimac Limited (not in business - see ACR Electronics, USA)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2002-03-28",
+    "issue_date": "2000-12-21",
+    "navigation": "N/A"
+  },
+  "124": {
+    "tac_num": "124",
+    "model_name": "RESCU 406AF",
+    "manufacturer": "Honeywell Aerospace Canada",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2001-03-13",
+    "issue_date": "2001-02-19",
+    "navigation": "N/A"
+  },
+  "125": {
+    "tac_num": "125",
+    "model_name": "ARM-406 AC1",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "ELT (Man)",
+    "last_rev_date": "2014-12-23",
+    "issue_date": "2001-03-30",
+    "navigation": "N/A"
+  },
+  "126": {
+    "tac_num": "126",
+    "model_name": "G406-2",
+    "manufacturer": "Artex Aircraft Supplies, Inc (not in business, see ACR Electronics )",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2001-09-09",
+    "issue_date": "2001-06-08",
+    "navigation": "Ext"
+  },
+  "127": {
+    "tac_num": "127",
+    "model_name": "RLB35",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2002-07-16",
+    "issue_date": "2001-07-23",
+    "navigation": "Int"
+  },
+  "128": {
+    "tac_num": "128",
+    "model_name": "SARBE10-I286",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2012-04-02",
+    "issue_date": "2001-10-04",
+    "navigation": "N/A"
+  },
+  "129": {
+    "tac_num": "129",
+    "model_name": "Fastfind",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "PLB / Non FF EPIRB",
+    "last_rev_date": "2009-11-18",
+    "issue_date": "2001-10-19",
+    "navigation": "N/A"
+  },
+  "130": {
+    "tac_num": "130",
+    "model_name": "ARM-406P1",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2014-12-23",
+    "issue_date": "2002-03-28",
+    "navigation": "Ext"
+  },
+  "131": {
+    "tac_num": "131",
+    "model_name": "ADT 406\u00b2 AF/AP-NAV+",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2002-07-15",
+    "navigation": "Ext"
+  },
+  "132": {
+    "tac_num": "132",
+    "model_name": "MR 509/1",
+    "manufacturer": "Becker Avionics GmbH",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2002-09-27",
+    "navigation": "N/A"
+  },
+  "133": {
+    "tac_num": "133",
+    "model_name": "SRB-406",
+    "manufacturer": "Astronics Luminescent Systems Inc",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2003-02-03",
+    "navigation": "N/A"
+  },
+  "134": {
+    "tac_num": "134",
+    "model_name": "EMS 406-1",
+    "manufacturer": "EMS Technologies Canada (not in business)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2003-04-25",
+    "navigation": "Ext"
+  },
+  "135": {
+    "tac_num": "135",
+    "model_name": "C406-N HM",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2011-12-31",
+    "issue_date": "2003-04-28",
+    "navigation": "Ext"
+  },
+  "136": {
+    "tac_num": "136",
+    "model_name": "RLB35MC",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "EPIRB FF (S-VDR)",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2003-06-25",
+    "navigation": "Int"
+  },
+  "137": {
+    "tac_num": "137",
+    "model_name": "SEEPIRB 406",
+    "manufacturer": "Thales UK Limited ( Ex- Thales Underwater Systems Limited)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2003-07-14",
+    "navigation": "N/A"
+  },
+  "138": {
+    "tac_num": "138",
+    "model_name": "KANNAD XS-2",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "PLB",
+    "last_rev_date": "2004-05-28",
+    "issue_date": "2003-10-21",
+    "navigation": "N/A"
+  },
+  "139": {
+    "tac_num": "139",
+    "model_name": "MT401 FF",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2007-11-09",
+    "issue_date": "2003-11-18",
+    "navigation": "N/A"
+  },
+  "140": {
+    "tac_num": "140",
+    "model_name": "MP-406 (HHEE)",
+    "manufacturer": "Musson-Morsviaz-Servis",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2010-07-13",
+    "issue_date": "2003-12-11",
+    "navigation": "N/A"
+  },
+  "141": {
+    "tac_num": "141",
+    "model_name": "RLB-33S",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "SSAS",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2004-08-26",
+    "navigation": "Ext"
+  },
+  "142": {
+    "tac_num": "142",
+    "model_name": "BE369/406",
+    "manufacturer": "Signature Industries limited (not in business, see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2004-11-12",
+    "navigation": "N/A"
+  },
+  "143": {
+    "tac_num": "143",
+    "model_name": "PLB 200",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2004-11-24",
+    "navigation": "Int&Ext"
+  },
+  "144": {
+    "tac_num": "144",
+    "model_name": "PLB 201",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2004-11-24",
+    "navigation": "Ext"
+  },
+  "145": {
+    "tac_num": "145",
+    "model_name": "ARB M-406",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2004-12-30",
+    "navigation": "N/A"
+  },
+  "146": {
+    "tac_num": "146",
+    "model_name": "EMS SSAS",
+    "manufacturer": "EMS Technologies Canada (not in business)",
+    "beacon_type": "SSAS",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2005-02-07",
+    "navigation": "Ext"
+  },
+  "147": {
+    "tac_num": "147",
+    "model_name": "Fernau 2200B",
+    "manufacturer": "Moog Fernau Limited (not in business, former Fernau Avionics Ltd.)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2005-03-08",
+    "navigation": "Int"
+  },
+  "148": {
+    "tac_num": "148",
+    "model_name": "SLB-1000-210",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT(S) / PLB",
+    "last_rev_date": "2011-12-31",
+    "issue_date": "2005-03-15",
+    "navigation": "N/A"
+  },
+  "149": {
+    "tac_num": "149",
+    "model_name": "KANNAD 406 SV GPS",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2006-03-24",
+    "issue_date": "2005-04-01",
+    "navigation": "Int"
+  },
+  "150": {
+    "tac_num": "150",
+    "model_name": "RB6",
+    "manufacturer": "Kinetic Technology International Pty, (KTI).  NOTE: as of 15 February 2021, KTI has stopped manufacturing beacons, but, until further notice, KTI will continue with services related to beacon  warranty, battery replacements and customer enquiries.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2005-05-12",
+    "navigation": "N/A"
+  },
+  "151": {
+    "tac_num": "151",
+    "model_name": "KANNAD 406 SVW",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2006-03-24",
+    "issue_date": "2005-07-11",
+    "navigation": "N/A"
+  },
+  "152": {
+    "tac_num": "152",
+    "model_name": "ME406P",
+    "manufacturer": "Artex Aircraft Supplies, Inc (not in business, see ACR Electronics )",
+    "beacon_type": "ELT(Auto)/ELT(Portable)",
+    "last_rev_date": "2009-02-05",
+    "issue_date": "2005-08-01",
+    "navigation": "Ext"
+  },
+  "153": {
+    "tac_num": "153",
+    "model_name": "ADT 406 S",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "ELT",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2005-09-13",
+    "navigation": "No"
+  },
+  "154": {
+    "tac_num": "154",
+    "model_name": "CPT-900",
+    "manufacturer": "Caledonian Airborne Systems Ltd.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2005-10-26",
+    "navigation": "N/A"
+  },
+  "155": {
+    "tac_num": "155",
+    "model_name": "L-3 FFSVR",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "EPIRB FF (S-VDR)",
+    "last_rev_date": "2009-07-15",
+    "issue_date": "2006-02-06",
+    "navigation": "Int"
+  },
+  "156": {
+    "tac_num": "156",
+    "model_name": "PLB200",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2006-03-09",
+    "navigation": "Int&Ext"
+  },
+  "157": {
+    "tac_num": "157",
+    "model_name": "PLB201",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2006-04-13",
+    "navigation": "Ext"
+  },
+  "158": {
+    "tac_num": "158",
+    "model_name": "AVMM ELT S-406",
+    "manufacturer": "Musson Marine Ltd.",
+    "beacon_type": "ELT (Man) - Survival",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2006-04-18",
+    "navigation": "N/A"
+  },
+  "159": {
+    "tac_num": "159",
+    "model_name": "SARBE G2R ELT",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "ELT (Auto Portable)",
+    "last_rev_date": "2012-04-02",
+    "issue_date": "2006-05-08",
+    "navigation": "Int"
+  },
+  "160": {
+    "tac_num": "160",
+    "model_name": "navtec global-C",
+    "manufacturer": "navtec GmbH",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2007-12-10",
+    "issue_date": "2006-05-29",
+    "navigation": "N/A"
+  },
+  "161": {
+    "tac_num": "161",
+    "model_name": "Marlin-406",
+    "manufacturer": "Kolgrim-Don Ltd",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2006-05-30",
+    "navigation": "N/A"
+  },
+  "162": {
+    "tac_num": "162",
+    "model_name": "KANNAD Manual GPS (Amdt D and higher)",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2006-07-04",
+    "navigation": "Int"
+  },
+  "163": {
+    "tac_num": "163",
+    "model_name": "E5 Smartfind (a) and (m)",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2010-01-18",
+    "issue_date": "2006-08-23",
+    "navigation": "N/A"
+  },
+  "164": {
+    "tac_num": "164",
+    "model_name": "TEB-700",
+    "manufacturer": "Mitsubishi Electric TOKKI System Corporation",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2015-07-15",
+    "issue_date": "2006-08-28",
+    "navigation": "No"
+  },
+  "165": {
+    "tac_num": "165",
+    "model_name": "C1 S-VDR Float Free Capsule",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "EPIRB FF (S-VDR)",
+    "last_rev_date": "2009-11-18",
+    "issue_date": "2006-09-15",
+    "navigation": "Int"
+  },
+  "166": {
+    "tac_num": "166",
+    "model_name": "MR 109",
+    "manufacturer": "Becker Electronics Taiwan Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2006-10-02",
+    "navigation": "Int"
+  },
+  "167": {
+    "tac_num": "167",
+    "model_name": "Kannad 406 AF-Compact (ER)",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2012-04-02",
+    "issue_date": "2006-12-11",
+    "navigation": "No"
+  },
+  "168": {
+    "tac_num": "168",
+    "model_name": "EBC-406H",
+    "manufacturer": "Emergency Beacon Corporation",
+    "beacon_type": "ELT(Auto)/ELT(Portable)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2006-12-13",
+    "navigation": "No"
+  },
+  "169": {
+    "tac_num": "169",
+    "model_name": "PLB-300",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2006-12-15",
+    "navigation": "Int"
+  },
+  "170": {
+    "tac_num": "170",
+    "model_name": "C406-2/B406-4/G406-4/C406-2HM",
+    "manufacturer": "Wulfsberg Electronics (not in business - see ACR Electronics, USA)",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2010-06-01",
+    "issue_date": "2007-01-22",
+    "navigation": "Ext"
+  },
+  "171": {
+    "tac_num": "171",
+    "model_name": "RESCU 406 SE",
+    "manufacturer": "Honeywell Aerospace Canada",
+    "beacon_type": "ELT (Man) - Survival",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2007-03-20",
+    "navigation": "N/A"
+  },
+  "172": {
+    "tac_num": "172",
+    "model_name": "PRO-5M",
+    "manufacturer": "Uranis Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2007-05-16",
+    "navigation": "None"
+  },
+  "173": {
+    "tac_num": "173",
+    "model_name": "RLB35MC",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "EPIRB FF (S-VDR)",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2007-05-18",
+    "navigation": "Int"
+  },
+  "174": {
+    "tac_num": "174",
+    "model_name": "PLB200",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2007-05-18",
+    "navigation": "Int&Ext"
+  },
+  "175": {
+    "tac_num": "175",
+    "model_name": "SARBE 7-406G",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "PLB",
+    "last_rev_date": "2012-04-02",
+    "issue_date": "2007-05-30",
+    "navigation": "Int"
+  },
+  "176": {
+    "tac_num": "176",
+    "model_name": "MT410G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "PLB",
+    "last_rev_date": "2007-08-20",
+    "issue_date": "2007-05-30",
+    "navigation": "Int"
+  },
+  "177": {
+    "tac_num": "177",
+    "model_name": "PARM-406",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "PLB",
+    "last_rev_date": "2010-03-30",
+    "issue_date": "2007-07-30",
+    "navigation": "Int"
+  },
+  "178": {
+    "tac_num": "178",
+    "model_name": "MRB 406GPS",
+    "manufacturer": "Sea Air and Land Communications Ltd.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2007-08-21",
+    "navigation": "Int"
+  },
+  "179": {
+    "tac_num": "179",
+    "model_name": "AK-451 *See important note at http://tinyurl.com/gwuu5bh",
+    "manufacturer": "Ameri-King Corporation",
+    "beacon_type": "ELT(Auto)/ELT(Portable)/ELT(Survival)/PLB",
+    "last_rev_date": "2008-02-07",
+    "issue_date": "2007-09-24",
+    "navigation": "Ext"
+  },
+  "180": {
+    "tac_num": "180",
+    "model_name": "KANNAD 406 XS3-GPS",
+    "manufacturer": "Martec Serpe-Iesm (not in business - see Orolia S.A.S., France)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2007-10-10",
+    "navigation": "Int"
+  },
+  "181": {
+    "tac_num": "181",
+    "model_name": "PLB-300",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2007-11-05",
+    "navigation": "Int"
+  },
+  "182": {
+    "tac_num": "182",
+    "model_name": "EB-20 SVDR Capsule",
+    "manufacturer": "Saracom Co., Ltd.",
+    "beacon_type": "EPIRB FF (S-VDR)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2007-11-26",
+    "navigation": "Int"
+  },
+  "183": {
+    "tac_num": "183",
+    "model_name": "ARM-406N1",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2014-12-23",
+    "issue_date": "2008-01-10",
+    "navigation": "Ext"
+  },
+  "184": {
+    "tac_num": "184",
+    "model_name": "Fastfind Plus",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "PLB",
+    "last_rev_date": "2010-01-18",
+    "issue_date": "2008-02-05",
+    "navigation": "Int"
+  },
+  "185": {
+    "tac_num": "185",
+    "model_name": "Tron 40VDR",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "EPIRB FF (VDR)",
+    "last_rev_date": "2014-08-15",
+    "issue_date": "2008-02-18",
+    "navigation": "Int"
+  },
+  "186": {
+    "tac_num": "186",
+    "model_name": "MT406G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2010-07-05",
+    "issue_date": "2008-03-25",
+    "navigation": "Int"
+  },
+  "187": {
+    "tac_num": "187",
+    "model_name": "PLB-300",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2008-03-20",
+    "navigation": "Int"
+  },
+  "188": {
+    "tac_num": "188",
+    "model_name": "ME406P",
+    "manufacturer": "Artex Aircraft Supplies, Inc (not in business, see ACR Electronics )",
+    "beacon_type": "ELT(Auto)/ELT(Portable)",
+    "last_rev_date": "2009-02-05",
+    "issue_date": "2008-07-14",
+    "navigation": "Ext"
+  },
+  "189": {
+    "tac_num": "189",
+    "model_name": "RLB-38",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2010-02-25",
+    "issue_date": "2008-07-17",
+    "navigation": "Ext"
+  },
+  "190": {
+    "tac_num": "190",
+    "model_name": "PLB-300",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2008-08-27",
+    "navigation": "Int"
+  },
+  "191": {
+    "tac_num": "191",
+    "model_name": "SAS-406",
+    "manufacturer": "Musson-Morsviaz-Servis",
+    "beacon_type": "SSAS",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2008-10-16",
+    "navigation": "Ext"
+  },
+  "192": {
+    "tac_num": "192",
+    "model_name": "ELT96-3GPS",
+    "manufacturer": "Air Precision",
+    "beacon_type": "ELT(Auto)/ELT(Portable)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2008-10-21",
+    "navigation": "Ext"
+  },
+  "193": {
+    "tac_num": "193",
+    "model_name": "PARM-406M",
+    "manufacturer": "",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-02-27",
+    "issue_date": "2008-12-30",
+    "navigation": "Int"
+  },
+  "194": {
+    "tac_num": "194",
+    "model_name": "Fastfind PLB 210",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-11-18",
+    "issue_date": "2009-02-06",
+    "navigation": "Int"
+  },
+  "195": {
+    "tac_num": "195",
+    "model_name": "SEP-500V",
+    "manufacturer": "Samyung ENC Co., Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2009-04-27",
+    "navigation": "Int"
+  },
+  "196": {
+    "tac_num": "196",
+    "model_name": "PRM-406N",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "PLB",
+    "last_rev_date": "2010-03-30",
+    "issue_date": "2009-04-28",
+    "navigation": "Int"
+  },
+  "197": {
+    "tac_num": "197",
+    "model_name": "ME406-U",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2011-12-31",
+    "issue_date": "2009-04-30",
+    "navigation": "N/A"
+  },
+  "198": {
+    "tac_num": "198",
+    "model_name": "PLB-350C",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2009-06-15",
+    "navigation": "Int"
+  },
+  "199": {
+    "tac_num": "199",
+    "model_name": "PLB-300",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2009-12-18",
+    "issue_date": "2009-07-14",
+    "navigation": "Int"
+  },
+  "200": {
+    "tac_num": "200",
+    "model_name": "Fastfind PLB 210",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "PLB",
+    "last_rev_date": "2010-01-18",
+    "issue_date": "2009-08-05",
+    "navigation": "Int"
+  },
+  "201": {
+    "tac_num": "201",
+    "model_name": "SafeLink Auto/SafeLink Manual+ * See Product Recall Notice in the General Comments section below ",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2016-07-14",
+    "issue_date": "2010-01-28",
+    "navigation": "Int (GPS)"
+  },
+  "202": {
+    "tac_num": "202",
+    "model_name": "CEP100",
+    "manufacturer": "SRC Co., Ltd",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2010-02-24",
+    "navigation": "Int"
+  },
+  "203": {
+    "tac_num": "203",
+    "model_name": "Kannad Marine - Safelink SOLO 310",
+    "manufacturer": "McMurdo Ltd (not in business, see Orolia Limited,UK)",
+    "beacon_type": "PLB",
+    "last_rev_date": "2010-10-13",
+    "issue_date": "2010-03-29",
+    "navigation": "Int"
+  },
+  "204": {
+    "tac_num": "204",
+    "model_name": "E5 Smartfind (a) and (m)",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2014-04-08",
+    "issue_date": "2010-05-10",
+    "navigation": "N/A"
+  },
+  "205": {
+    "tac_num": "205",
+    "model_name": "8000-1 (AF)",
+    "manufacturer": "Pointer Inc.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2010-07-12",
+    "navigation": "N/A"
+  },
+  "206": {
+    "tac_num": "206",
+    "model_name": "AAPLB-PELS",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "PLB",
+    "last_rev_date": "2012-04-02",
+    "issue_date": "2010-07-14",
+    "navigation": "Int"
+  },
+  "207": {
+    "tac_num": "207",
+    "model_name": "PLB200",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2010-08-13",
+    "navigation": "Int&Ext"
+  },
+  "208": {
+    "tac_num": "208",
+    "model_name": "PLB-350C",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2010-08-13",
+    "navigation": "Int"
+  },
+  "209": {
+    "tac_num": "209",
+    "model_name": "MR510-XX-(X1X)",
+    "manufacturer": "Becker Avionics GmbH",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-06-13",
+    "issue_date": "2010-09-30",
+    "navigation": "Int"
+  },
+  "210": {
+    "tac_num": "210",
+    "model_name": "RB406-1HM",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2011-12-31",
+    "issue_date": "2010-10-27",
+    "navigation": "Ext"
+  },
+  "211": {
+    "tac_num": "211",
+    "model_name": "SafeSea E100G (Class 2)",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2017-01-27",
+    "issue_date": "2010-10-28",
+    "navigation": "Int"
+  },
+  "212": {
+    "tac_num": "212",
+    "model_name": "E-04C",
+    "manufacturer": "ACK Technologies, Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2011-01-26",
+    "navigation": "Ext"
+  },
+  "213": {
+    "tac_num": "213",
+    "model_name": "RLB-38",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2011-03-07",
+    "navigation": "Ext"
+  },
+  "214": {
+    "tac_num": "214",
+    "model_name": "AF/AP/AF-H/AP-H INTEGRA(ER-N)",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "ELT(Automatic Fixed) and ELT (Automatic Portable)",
+    "last_rev_date": "2015-02-05",
+    "issue_date": "2011-03-07",
+    "navigation": "Int&Ext"
+  },
+  "215": {
+    "tac_num": "215",
+    "model_name": "ELT406GPS",
+    "manufacturer": "Emerging Lifesaving Technologies Inc",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2011-03-07",
+    "navigation": "Int"
+  },
+  "216": {
+    "tac_num": "216",
+    "model_name": "Fastfind Plus",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "2012-04-01",
+    "issue_date": "2011-04-07",
+    "navigation": "Int"
+  },
+  "217": {
+    "tac_num": "217",
+    "model_name": "Kannad Marine - Safelink SOLO 310",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "2012-04-01",
+    "issue_date": "2011-04-15",
+    "navigation": "Int"
+  },
+  "218": {
+    "tac_num": "218",
+    "model_name": "SA1",
+    "manufacturer": "Kinetic Technology International Pty, (KTI).  NOTE: as of 15 February 2021, KTI has stopped manufacturing beacons, but, until further notice, KTI will continue with services related to beacon  warranty, battery replacements and customer enquiries.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2011-05-16",
+    "navigation": "No"
+  },
+  "219": {
+    "tac_num": "219",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2011-07-11",
+    "navigation": "Int"
+  },
+  "220": {
+    "tac_num": "220",
+    "model_name": "ARBM-406N",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2011-08-04",
+    "navigation": "Int"
+  },
+  "221": {
+    "tac_num": "221",
+    "model_name": "SA1G",
+    "manufacturer": "Kinetic Technology International Pty, (KTI).  NOTE: as of 15 February 2021, KTI has stopped manufacturing beacons, but, until further notice, KTI will continue with services related to beacon  warranty, battery replacements and customer enquiries.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2011-11-21",
+    "navigation": "Int"
+  },
+  "222": {
+    "tac_num": "222",
+    "model_name": "Tron 60S",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-01-02",
+    "navigation": "N/A"
+  },
+  "223": {
+    "tac_num": "223",
+    "model_name": "500-32",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "ELT(S) / PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-01-02",
+    "navigation": "Int"
+  },
+  "224": {
+    "tac_num": "224",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-01-20",
+    "navigation": "Int"
+  },
+  "225": {
+    "tac_num": "225",
+    "model_name": "SATRO\u2122, PLB-110",
+    "manufacturer": "Astronics DME LLC (see Astronics Luminescent Systems Inc)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-03-05",
+    "navigation": "Int"
+  },
+  "226": {
+    "tac_num": "226",
+    "model_name": "SkyHunter 406 AF, SkyHunter 406 HF",
+    "manufacturer": "SkyHunter Ltd.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-03-21",
+    "navigation": "Int"
+  },
+  "227": {
+    "tac_num": "227",
+    "model_name": "ASNAP-M2",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-04-03",
+    "navigation": "Int"
+  },
+  "228": {
+    "tac_num": "228",
+    "model_name": "PLB-350C",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-05-11",
+    "navigation": "Int"
+  },
+  "229": {
+    "tac_num": "229",
+    "model_name": "Kannad Marine - Safelink SOLO 310",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-05-24",
+    "navigation": "Int"
+  },
+  "230": {
+    "tac_num": "230",
+    "model_name": "ASNAP-P2",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "ELT(S) / PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-07-03",
+    "navigation": "Int"
+  },
+  "231": {
+    "tac_num": "231",
+    "model_name": "EM2001- Submarine search and rescue bouy",
+    "manufacturer": "\u00e9olane Les Ulis",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-07-25",
+    "navigation": "N/A"
+  },
+  "232": {
+    "tac_num": "232",
+    "model_name": "RESCU 406AFN2 (P/N 51090414-1)",
+    "manufacturer": "Honeywell Aerospace Canada",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2022-02-15",
+    "issue_date": "2012-07-26",
+    "navigation": "Ext"
+  },
+  "233": {
+    "tac_num": "233",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-08-09",
+    "navigation": "Int"
+  },
+  "234": {
+    "tac_num": "234",
+    "model_name": "RLB-38",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-08-16",
+    "navigation": "Ext"
+  },
+  "235": {
+    "tac_num": "235",
+    "model_name": "RESCU 406SG",
+    "manufacturer": "Honeywell Aerospace Canada",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-05-03",
+    "navigation": "Int"
+  },
+  "236": {
+    "tac_num": "236",
+    "model_name": "RESCU 406SE2",
+    "manufacturer": "Honeywell Aerospace Canada",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2012-11-14",
+    "navigation": "N/A"
+  },
+  "237": {
+    "tac_num": "237",
+    "model_name": "VEP8A",
+    "manufacturer": "",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-05-05",
+    "issue_date": "2012-11-28",
+    "navigation": "Internal (GPS, BDS)"
+  },
+  "238": {
+    "tac_num": "238",
+    "model_name": "SAT406",
+    "manufacturer": "Mobit Telecom Ltd",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-01-03",
+    "navigation": "Int"
+  },
+  "239": {
+    "tac_num": "239",
+    "model_name": "rescueME PLB2",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-02-19",
+    "navigation": "no"
+  },
+  "240": {
+    "tac_num": "240",
+    "model_name": "STB910",
+    "manufacturer": "Haotong(S.H.)Technology Co.,Ltd.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-03-21",
+    "navigation": "Int"
+  },
+  "241": {
+    "tac_num": "241",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-05-03",
+    "navigation": "Int"
+  },
+  "242": {
+    "tac_num": "242",
+    "model_name": "ME406-U",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-05-31",
+    "navigation": "N/A"
+  },
+  "243": {
+    "tac_num": "243",
+    "model_name": "Kannad Marine - Safelink SOLO 310",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-08-06",
+    "navigation": "Int"
+  },
+  "244": {
+    "tac_num": "244",
+    "model_name": "503-16",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "ELT (Automatic Deployable)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-09-12",
+    "navigation": "Int"
+  },
+  "245": {
+    "tac_num": "245",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-11-04",
+    "navigation": "Int"
+  },
+  "246": {
+    "tac_num": "246",
+    "model_name": "RLB-38",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2013-11-07",
+    "navigation": "Ext"
+  },
+  "247": {
+    "tac_num": "247",
+    "model_name": "MT600",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2017-02-09",
+    "issue_date": "2013-12-12",
+    "navigation": "N/A"
+  },
+  "248": {
+    "tac_num": "248",
+    "model_name": "W100",
+    "manufacturer": "Wamblee s.r.l.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-01-16",
+    "navigation": "N/A"
+  },
+  "249": {
+    "tac_num": "249",
+    "model_name": "G5 Smartfind Plus (a) & (m)",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-04-08",
+    "navigation": "Int"
+  },
+  "250": {
+    "tac_num": "250",
+    "model_name": "\u041f\u0420\u0411-406",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "PLB",
+    "last_rev_date": "2014-12-23",
+    "issue_date": "2014-04-17",
+    "navigation": "Int"
+  },
+  "251": {
+    "tac_num": "251",
+    "model_name": "ARTEX ELT 1000",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2016-11-25",
+    "issue_date": "2014-04-25",
+    "navigation": "Ext"
+  },
+  "252": {
+    "tac_num": "252",
+    "model_name": "C406-N HM",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-05-12",
+    "navigation": "Ext"
+  },
+  "253": {
+    "tac_num": "253",
+    "model_name": "NSR NEB-1000",
+    "manufacturer": "NEW SUNRISE CO., LTD.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-06-20",
+    "navigation": "Int"
+  },
+  "254": {
+    "tac_num": "254",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-07-29",
+    "navigation": "Int"
+  },
+  "255": {
+    "tac_num": "255",
+    "model_name": "SA2G",
+    "manufacturer": "Kinetic Technology International Pty, (KTI).  NOTE: as of 15 February 2021, KTI has stopped manufacturing beacons, but, until further notice, KTI will continue with services related to beacon  warranty, battery replacements and customer enquiries.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-10-29",
+    "navigation": "internal  GPS receiver"
+  },
+  "256": {
+    "tac_num": "256",
+    "model_name": "EPIRB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2017-12-20",
+    "issue_date": "2014-11-03",
+    "navigation": "internal GPS"
+  },
+  "257": {
+    "tac_num": "257",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-12-18",
+    "navigation": "Int"
+  },
+  "258": {
+    "tac_num": "258",
+    "model_name": "RLB-38",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-12-18",
+    "navigation": "Ext"
+  },
+  "259": {
+    "tac_num": "259",
+    "model_name": "\u041fA\u0420M-406\u041f",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2014-12-19",
+    "navigation": "Int"
+  },
+  "260": {
+    "tac_num": "260",
+    "model_name": "rescueME PLB2",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2017-01-27",
+    "issue_date": "2015-02-03",
+    "navigation": "no"
+  },
+  "261": {
+    "tac_num": "261",
+    "model_name": "500-30A-D",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "ELT(S) / PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-05-17",
+    "navigation": "Int"
+  },
+  "262": {
+    "tac_num": "262",
+    "model_name": "NEB-2000C",
+    "manufacturer": "NEW SUNRISE CO., LTD.",
+    "beacon_type": "EPIRB FF (VDR)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-04-07",
+    "navigation": "Int"
+  },
+  "263": {
+    "tac_num": "263",
+    "model_name": "Kannad Marine - Safelink SOLO 310",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-04-10",
+    "navigation": "Int"
+  },
+  "264": {
+    "tac_num": "264",
+    "model_name": "FT-8200",
+    "manufacturer": "Shishi Feitong Communication Equipment Co., Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-05-27",
+    "navigation": "internal"
+  },
+  "265": {
+    "tac_num": "265",
+    "model_name": "PLB-375",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-05-29",
+    "navigation": "Int"
+  },
+  "266": {
+    "tac_num": "266",
+    "model_name": "PLB-350C",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2017-05-23",
+    "issue_date": "2015-05-29",
+    "navigation": "Int"
+  },
+  "267": {
+    "tac_num": "267",
+    "model_name": "Artex ELT-345",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2016-11-02",
+    "issue_date": "2015-08-10",
+    "navigation": "Ext"
+  },
+  "268": {
+    "tac_num": "268",
+    "model_name": "RLB-42",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-08-17",
+    "navigation": "internal GPS"
+  },
+  "269": {
+    "tac_num": "269",
+    "model_name": "VPL8",
+    "manufacturer": "CETC Ningbo Maritime Electronics Research Institute Co.Ltd",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-10-23",
+    "navigation": "internal GNSS (GPS) receiver"
+  },
+  "270": {
+    "tac_num": "270",
+    "model_name": "RLB-41",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-11-06",
+    "navigation": "internal (GPS)"
+  },
+  "271": {
+    "tac_num": "271",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2016-05-04",
+    "issue_date": "2015-11-17",
+    "navigation": "Int"
+  },
+  "272": {
+    "tac_num": "272",
+    "model_name": "Artex ELT-3000 HM",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2015-12-24",
+    "navigation": "Ext"
+  },
+  "273": {
+    "tac_num": "273",
+    "model_name": "MT410G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2016-01-15",
+    "navigation": "Int"
+  },
+  "274": {
+    "tac_num": "274",
+    "model_name": "SA1G",
+    "manufacturer": "Kinetic Technology International Pty, (KTI).  NOTE: as of 15 February 2021, KTI has stopped manufacturing beacons, but, until further notice, KTI will continue with services related to beacon  warranty, battery replacements and customer enquiries.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2016-02-29",
+    "navigation": "Int"
+  },
+  "275": {
+    "tac_num": "275",
+    "model_name": "E101V",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "EPIRB FF (VDR)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2016-03-24",
+    "navigation": "Int"
+  },
+  "276": {
+    "tac_num": "276",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2016-10-14",
+    "issue_date": "2016-05-04",
+    "navigation": "Int"
+  },
+  "277": {
+    "tac_num": "277",
+    "model_name": "E-04C",
+    "manufacturer": "ACK Technologies, Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2016-05-25",
+    "navigation": "Ext"
+  },
+  "278": {
+    "tac_num": "278",
+    "model_name": "RLB-40",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2017-02-07",
+    "issue_date": "2016-08-19",
+    "navigation": "No"
+  },
+  "279": {
+    "tac_num": "279",
+    "model_name": "PLB-375",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2016-10-14",
+    "navigation": "Int"
+  },
+  "280": {
+    "tac_num": "280",
+    "model_name": "SOS-300",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2016-11-02",
+    "navigation": "Int (GPS)"
+  },
+  "281": {
+    "tac_num": "281",
+    "model_name": "Fastfind PLB 210",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "2017-10-04",
+    "issue_date": "2016-11-14",
+    "navigation": "Int"
+  },
+  "282": {
+    "tac_num": "282",
+    "model_name": "SafeSea E100G (Class 2)",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-01-27",
+    "navigation": "Int"
+  },
+  "283": {
+    "tac_num": "283",
+    "model_name": "rescueME PLB2",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2017-08-25",
+    "issue_date": "2017-01-27",
+    "navigation": "no"
+  },
+  "284": {
+    "tac_num": "284",
+    "model_name": "RLB-37M",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2017-04-20",
+    "issue_date": "2017-02-07",
+    "navigation": "Int"
+  },
+  "285": {
+    "tac_num": "285",
+    "model_name": "E5 Smartfind (a) and (m)",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-02-10",
+    "navigation": "N/A"
+  },
+  "286": {
+    "tac_num": "286",
+    "model_name": "MT600",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-02-09",
+    "navigation": "N/A"
+  },
+  "287": {
+    "tac_num": "287",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-04-12",
+    "navigation": "Int"
+  },
+  "288": {
+    "tac_num": "288",
+    "model_name": "RLB-41",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-05-26",
+    "navigation": "internal (GPS)"
+  },
+  "289": {
+    "tac_num": "289",
+    "model_name": "McMurdo Smartfind E8 (Z704) ",
+    "manufacturer": "McMurdo Ltd",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2021-10-22",
+    "issue_date": "2018-03-06",
+    "navigation": "N/A"
+  },
+  "290": {
+    "tac_num": "290",
+    "model_name": "SA3G",
+    "manufacturer": "Kinetic Technology International Pty, (KTI).  NOTE: as of 15 February 2021, KTI has stopped manufacturing beacons, but, until further notice, KTI will continue with services related to beacon  warranty, battery replacements and customer enquiries.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-07-26",
+    "navigation": "Int"
+  },
+  "291": {
+    "tac_num": "291",
+    "model_name": "ELiTe (in Survival Configuration)",
+    "manufacturer": "ELTA SA (not in business - see See ECA Group)",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-10-04",
+    "navigation": "Int"
+  },
+  "292": {
+    "tac_num": "292",
+    "model_name": "Kannad Marine - Safelink SOLO 310",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "2017-10-13",
+    "issue_date": "2017-10-04",
+    "navigation": "Int"
+  },
+  "293": {
+    "tac_num": "293",
+    "model_name": "MT600G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-10-23",
+    "navigation": "Int"
+  },
+  "294": {
+    "tac_num": "294",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2018-03-21",
+    "issue_date": "2017-10-23",
+    "navigation": "Int"
+  },
+  "295": {
+    "tac_num": "295",
+    "model_name": "VPLB-01",
+    "manufacturer": "Viettel Research and Development Institute",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-11-02",
+    "navigation": "Int"
+  },
+  "296": {
+    "tac_num": "296",
+    "model_name": "OM-1-02",
+    "manufacturer": "Joint Stock Company \u201cResearch & Production Enterprise \u201cIzmeritel\u201d",
+    "beacon_type": "ELT (Automatic Deployable)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-12-13",
+    "navigation": "N/A"
+  },
+  "297": {
+    "tac_num": "297",
+    "model_name": "EPIRB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-12-20",
+    "navigation": "internal GPS"
+  },
+  "298": {
+    "tac_num": "298",
+    "model_name": "Artex ELT 4000 HM",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2020-05-21",
+    "issue_date": "2018-01-26",
+    "navigation": "Ext"
+  },
+  "299": {
+    "tac_num": "299",
+    "model_name": "rescueME PLB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-02-06",
+    "navigation": "Int"
+  },
+  "300": {
+    "tac_num": "300",
+    "model_name": "MT603G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-02-26",
+    "navigation": "internal (GPS)"
+  },
+  "301": {
+    "tac_num": "301",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-03-21",
+    "navigation": "Int"
+  },
+  "302": {
+    "tac_num": "302",
+    "model_name": "MT410G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-04-17",
+    "navigation": "Int"
+  },
+  "303": {
+    "tac_num": "303",
+    "model_name": "SRB-406G Single Antenna",
+    "manufacturer": "Astronics Luminescent Systems Inc",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-05-14",
+    "navigation": "internal"
+  },
+  "304": {
+    "tac_num": "304",
+    "model_name": "FAST FIND RANGER",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-01-21",
+    "issue_date": "2018-07-23",
+    "navigation": "Int"
+  },
+  "305": {
+    "tac_num": "305",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-03-12",
+    "issue_date": "2018-10-19",
+    "navigation": "Int"
+  },
+  "306": {
+    "tac_num": "306",
+    "model_name": "DK-406-AF",
+    "manufacturer": "Dukane Seacom Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-10-29",
+    "navigation": "Internal with ELT10-892 Antenna"
+  },
+  "307": {
+    "tac_num": "307",
+    "model_name": "DK-406-AF",
+    "manufacturer": "Dukane Seacom Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-10-29",
+    "navigation": "Internal with ELT10-892 Antenna"
+  },
+  "308": {
+    "tac_num": "308",
+    "model_name": "DK-406-AF",
+    "manufacturer": "Dukane Seacom Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-10-29",
+    "navigation": "Internal with ELT10-892 Antenna"
+  },
+  "309": {
+    "tac_num": "309",
+    "model_name": "MT600G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-12-06",
+    "navigation": "Int"
+  },
+  "310": {
+    "tac_num": "310",
+    "model_name": "rescueME PLB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-02-01",
+    "navigation": "Int"
+  },
+  "311": {
+    "tac_num": "311",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-03-04",
+    "issue_date": "2019-03-04",
+    "navigation": "Int"
+  },
+  "312": {
+    "tac_num": "312",
+    "model_name": "SA2GN",
+    "manufacturer": "Kinetic Technology International Pty, (KTI).  NOTE: as of 15 February 2021, KTI has stopped manufacturing beacons, but, until further notice, KTI will continue with services related to beacon  warranty, battery replacements and customer enquiries.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-07-26",
+    "issue_date": "2019-03-06",
+    "navigation": "internal GNSS receiver"
+  },
+  "313": {
+    "tac_num": "313",
+    "model_name": "\u041f\u0410\u0420\u041c-406\u0421\u041f",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2019-03-11",
+    "navigation": "\tInternal "
+  },
+  "314": {
+    "tac_num": "314",
+    "model_name": "PLB-375(ResQLink+)",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-03-12",
+    "issue_date": "2019-03-12",
+    "navigation": "Int"
+  },
+  "315": {
+    "tac_num": "315",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-04-05",
+    "issue_date": "2019-04-05",
+    "navigation": "Int"
+  },
+  "316": {
+    "tac_num": "316",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2020-04-16",
+    "issue_date": "2019-04-05",
+    "navigation": "Int"
+  },
+  "317": {
+    "tac_num": "317",
+    "model_name": "Artex ELT-345",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2019-04-05",
+    "issue_date": "2019-04-05",
+    "navigation": "Ext"
+  },
+  "318": {
+    "tac_num": "318",
+    "model_name": "Tron 40VDR",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "EPIRB FF (VDR)",
+    "last_rev_date": "2019-04-16",
+    "issue_date": "2019-04-16",
+    "navigation": "Int"
+  },
+  "319": {
+    "tac_num": "319",
+    "model_name": "RLB-41",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2019-05-10",
+    "issue_date": "2019-05-10",
+    "navigation": "internal (GPS)"
+  },
+  "320": {
+    "tac_num": "320",
+    "model_name": "RLB-40",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2019-06-27",
+    "issue_date": "2019-06-27",
+    "navigation": "No"
+  },
+  "321": {
+    "tac_num": "321",
+    "model_name": "rescueME PLB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2019-09-23",
+    "navigation": "Int"
+  },
+  "322": {
+    "tac_num": "322",
+    "model_name": "EPIRB1 Pro",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2020-04-08",
+    "navigation": "internal GPS"
+  },
+  "323": {
+    "tac_num": "323",
+    "model_name": "ARTEX ELT 1000",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2019-10-17",
+    "navigation": "Ext"
+  },
+  "324": {
+    "tac_num": "324",
+    "model_name": "Artex ELT-345",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "2020-06-11",
+    "issue_date": "2019-10-17",
+    "navigation": "Ext"
+  },
+  "325": {
+    "tac_num": "325",
+    "model_name": "ORCA-406",
+    "manufacturer": "BriarTek Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2019-11-04",
+    "navigation": "internal"
+  },
+  "326": {
+    "tac_num": "326",
+    "model_name": "MT600",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2019-11-19",
+    "navigation": "N/A"
+  },
+  "327": {
+    "tac_num": "327",
+    "model_name": "P-855A1-406",
+    "manufacturer": "Technika Svyazi, Open Joint-Stock Company, Republic of Belarus",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2020-02-11",
+    "navigation": "internal GPS/GLONASS"
+  },
+  "328": {
+    "tac_num": "328",
+    "model_name": "E-04C",
+    "manufacturer": "ACK Technologies, Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2020-05-20",
+    "navigation": "Ext"
+  },
+  "329": {
+    "tac_num": "329",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2020-06-10",
+    "issue_date": "2020-06-10",
+    "navigation": "Int"
+  },
+  "330": {
+    "tac_num": "330",
+    "model_name": "RLB-41",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2021-04-13",
+    "issue_date": "2020-06-19",
+    "navigation": "internal (GPS)"
+  },
+  "331": {
+    "tac_num": "331",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2020-08-13",
+    "issue_date": "2020-08-13",
+    "navigation": "Int"
+  },
+  "332": {
+    "tac_num": "332",
+    "model_name": "EPIRB1 (for distribution in Australia and New Zealand)",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2020-10-13",
+    "navigation": "internal GPS"
+  },
+  "333": {
+    "tac_num": "333",
+    "model_name": "rescueME PLB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2020-10-13",
+    "navigation": "Int"
+  },
+  "334": {
+    "tac_num": "334",
+    "model_name": "Tron 60S",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2020-10-16",
+    "issue_date": "2020-10-16",
+    "navigation": "N/A"
+  },
+  "335": {
+    "tac_num": "335",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2020-11-04",
+    "issue_date": "2020-11-04",
+    "navigation": "Int"
+  },
+  "336": {
+    "tac_num": "336",
+    "model_name": "FAST FIND RANGER",
+    "manufacturer": "McMurdo Ltd",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-01-30",
+    "issue_date": "2021-01-08",
+    "navigation": "Int"
+  },
+  "337": {
+    "tac_num": "337",
+    "model_name": "MT600",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-01-08",
+    "navigation": "N/A"
+  },
+  "338": {
+    "tac_num": "338",
+    "model_name": "Artex ELT 4000S",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "2023-04-12",
+    "issue_date": "2021-01-12",
+    "navigation": "Int"
+  },
+  "339": {
+    "tac_num": "339",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-04-23",
+    "issue_date": "2021-03-08",
+    "navigation": "Int"
+  },
+  "340": {
+    "tac_num": "340",
+    "model_name": "MT610G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-08-05",
+    "issue_date": "2021-04-12",
+    "navigation": "internal"
+  },
+  "341": {
+    "tac_num": "341",
+    "model_name": "RLB-41",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-04-13",
+    "navigation": "internal (GPS)"
+  },
+  "342": {
+    "tac_num": "342",
+    "model_name": "rescueME PLB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-05-21",
+    "navigation": "Int"
+  },
+  "343": {
+    "tac_num": "343",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-06-03",
+    "issue_date": "2021-06-03",
+    "navigation": "Int"
+  },
+  "344": {
+    "tac_num": "344",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-07-01",
+    "issue_date": "2021-07-01",
+    "navigation": "Int"
+  },
+  "345": {
+    "tac_num": "345",
+    "model_name": "MT410G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-06-11",
+    "navigation": "Int"
+  },
+  "346": {
+    "tac_num": "346",
+    "model_name": "EPIRB1 (for distribution in Australia and New Zealand)",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-07-07",
+    "navigation": "internal GPS"
+  },
+  "347": {
+    "tac_num": "347",
+    "model_name": "McMurdo Smartfind E8 (Z704) ",
+    "manufacturer": "McMurdo Ltd",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2021-10-22",
+    "issue_date": "2021-10-22",
+    "navigation": "N/A"
+  },
+  "348": {
+    "tac_num": "348",
+    "model_name": "rescueME PLB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-11-30",
+    "navigation": "Int"
+  },
+  "349": {
+    "tac_num": "349",
+    "model_name": "MT600",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-12-06",
+    "navigation": "N/A"
+  },
+  "350": {
+    "tac_num": "350",
+    "model_name": "KANNAD ULTIMA-S-03",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "2022-01-06",
+    "issue_date": "2022-01-06",
+    "navigation": "Internal"
+  },
+  "351": {
+    "tac_num": "351",
+    "model_name": "Tron 60AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2022-01-06",
+    "issue_date": "2022-01-06",
+    "navigation": "Int"
+  },
+  "352": {
+    "tac_num": "352",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2022-01-28",
+    "issue_date": "2022-01-28",
+    "navigation": "Int"
+  },
+  "353": {
+    "tac_num": "353",
+    "model_name": "Tron 40AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2022-02-04",
+    "issue_date": "2022-02-04",
+    "navigation": "Int"
+  },
+  "354": {
+    "tac_num": "354",
+    "model_name": "Tron 40VDR AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "EPIRB FF (VDR)",
+    "last_rev_date": "2023-03-03",
+    "issue_date": "2022-02-04",
+    "navigation": "Int"
+  },
+  "355": {
+    "tac_num": "355",
+    "model_name": "RLB-41",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2022-04-06",
+    "issue_date": "2022-04-06",
+    "navigation": "internal (GPS)"
+  },
+  "356": {
+    "tac_num": "356",
+    "model_name": "EPIRB1 Pro",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2022-04-22",
+    "issue_date": "2022-04-22",
+    "navigation": "internal GPS"
+  },
+  "357": {
+    "tac_num": "357",
+    "model_name": "SEP100",
+    "manufacturer": "SRC Co., Ltd",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2022-05-12",
+    "navigation": "Internal GPS"
+  },
+  "358": {
+    "tac_num": "358",
+    "model_name": "TA \u041a\u0421\u0421\u041f\u0421-\u0410\u0418\u0421 (\u0422\u0435\u0440\u043c\u0438\u043d\u0430\u043b \u0430\u0431\u043e\u043d\u0435\u043d\u0442\u0441\u043a\u0438\u0439 \u043a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0441\u0432\u044f\u0437\u0438, \u043f\u043e\u0438\u0441\u043a\u0430 \u0438 \u0441\u043f\u0430\u0441\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043c\u043e\u0440\u0441\u043a\u0438\u0445 \u0438 \u0440\u0435\u0447\u043d\u044b\u0445 \u0441\u0443\u0434\u043e\u0432 \u0441 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c\u044e \u043e\u0431\u043c\u0435\u043d\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0435\u0439 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u043e\u0439)  \u0442\u0438\u043f\u0430 EPIRB FF, EPIRB Non FF",
+    "manufacturer": "Branch of Joint  Stock  Company \u00abUnited Rocket and  Space Corporation\u00bb - \u00abInstitute of Space Device Engineering\u00bb",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2022-05-31",
+    "navigation": "internal receiver of GPS/GLONASS/Galileo navigation signals"
+  },
+  "359": {
+    "tac_num": "359",
+    "model_name": "rescueME PLB1",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-06-23",
+    "navigation": "Int"
+  },
+  "360": {
+    "tac_num": "360",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2022-06-23",
+    "issue_date": "2022-06-23",
+    "navigation": "Int"
+  },
+  "361": {
+    "tac_num": "361",
+    "model_name": "KANNAD ULTIMA-DT-06",
+    "manufacturer": "",
+    "beacon_type": "",
+    "last_rev_date": "2023-06-30",
+    "issue_date": "2023-06-30",
+    "navigation": "Internal / External"
+  },
+  "362": {
+    "tac_num": "362",
+    "model_name": "EPIRB3 Pro",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "363": {
+    "tac_num": "363",
+    "model_name": "EPIRB3 Pro",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "364": {
+    "tac_num": "364",
+    "model_name": "RLB-44",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "365": {
+    "tac_num": "365",
+    "model_name": "RLB-44",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "366": {
+    "tac_num": "366",
+    "model_name": "PLB3",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2022-10-20",
+    "issue_date": "2022-10-20",
+    "navigation": "Int"
+  },
+  "367": {
+    "tac_num": "367",
+    "model_name": "PLB-450",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2022-10-20",
+    "issue_date": "2022-10-20",
+    "navigation": "Int"
+  },
+  "369": {
+    "tac_num": "369",
+    "model_name": "RLB-41",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2022-12-10",
+    "issue_date": "2022-12-10",
+    "navigation": "internal (GPS)"
+  },
+  "370": {
+    "tac_num": "370",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2022-12-10",
+    "issue_date": "2022-12-10",
+    "navigation": "Int"
+  },
+  "371": {
+    "tac_num": "371",
+    "model_name": "NEB-2000C-VDR",
+    "manufacturer": "NEW SUNRISE CO., LTD.",
+    "beacon_type": "EPIRB FF (VDR)",
+    "last_rev_date": "",
+    "issue_date": "2022-12-13",
+    "navigation": "Internal navigation receiver (GPS, GLONASS, BDS, Galileo)"
+  },
+  "372": {
+    "tac_num": "372",
+    "model_name": "500-27()",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "ELT(S) / PLB",
+    "last_rev_date": "",
+    "issue_date": "2022-12-22",
+    "navigation": "Int"
+  },
+  "373": {
+    "tac_num": "373",
+    "model_name": "500-32",
+    "manufacturer": "Techtest Ltd.",
+    "beacon_type": "ELT(S) / PLB",
+    "last_rev_date": "",
+    "issue_date": "2023-01-06",
+    "navigation": "Int"
+  },
+  "374": {
+    "tac_num": "374",
+    "model_name": "NEB-2000",
+    "manufacturer": "NEW SUNRISE CO., LTD.",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "",
+    "issue_date": "2023-01-06",
+    "navigation": "Internal navigation receiver (GPS, GLONASS, BDS, Galileo)"
+  },
+  "375": {
+    "tac_num": "375",
+    "model_name": "Tron 60AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2023-03-02",
+    "issue_date": "2023-03-02",
+    "navigation": "Int"
+  },
+  "377": {
+    "tac_num": "377",
+    "model_name": "EPIRB2 Pro",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "378": {
+    "tac_num": "378",
+    "model_name": "EPIRB2 Pro",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "379": {
+    "tac_num": "379",
+    "model_name": "RLB-43",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "380": {
+    "tac_num": "380",
+    "model_name": "RLB-43",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "381": {
+    "tac_num": "381",
+    "model_name": "RLB-45",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "382": {
+    "tac_num": "382",
+    "model_name": "RLB-45",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "383": {
+    "tac_num": "383",
+    "model_name": "Artex ELT 4000M HM",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Automatic Fixed)",
+    "last_rev_date": "",
+    "issue_date": "2023-03-30",
+    "navigation": "Ext"
+  },
+  "384": {
+    "tac_num": "384",
+    "model_name": "EPIRB1 Pro",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "",
+    "issue_date": "2023-04-18",
+    "navigation": "internal GPS"
+  },
+  "385": {
+    "tac_num": "385",
+    "model_name": "MT600G",
+    "manufacturer": "GME Pty Ltd (former Standard Communications PTY LTD.)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "",
+    "issue_date": "2023-05-05",
+    "navigation": "Int"
+  },
+  "386": {
+    "tac_num": "386",
+    "model_name": "\u0420\u0411\u041f-2-\u041a\u0421 (RBP-2-KS)",
+    "manufacturer": "",
+    "beacon_type": "PLB",
+    "last_rev_date": "",
+    "issue_date": "2023-07-07",
+    "navigation": "Internal (GPS, GLONASS, Galileo)"
+  },
+  "387": {
+    "tac_num": "387",
+    "model_name": "PLB-425",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-07-10",
+    "issue_date": "2023-07-10",
+    "navigation": "Int"
+  },
+  "388": {
+    "tac_num": "388",
+    "model_name": "C406-2/B406-4/C406-2HM",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "2023-08-04",
+    "issue_date": "2023-08-04",
+    "navigation": "Ext"
+  },
+  "389": {
+    "tac_num": "389",
+    "model_name": "SAT406M-STD",
+    "manufacturer": "Mobit Telecom Ltd",
+    "beacon_type": "PLB",
+    "last_rev_date": "",
+    "issue_date": "2023-08-29",
+    "navigation": "Int"
+  },
+  "701": {
+    "tac_num": "701",
+    "model_name": "MR509/2",
+    "manufacturer": "Becker Avionics GmbH",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "1998-08-13",
+    "navigation": "Int"
+  },
+  "703": {
+    "tac_num": "703",
+    "model_name": "AN-PRC-149",
+    "manufacturer": "Tadiran Spectralink Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2004-09-15",
+    "issue_date": "1999-12-15",
+    "navigation": "Int"
+  },
+  "704": {
+    "tac_num": "704",
+    "model_name": "Warrendi Model AF/PRC-807A",
+    "manufacturer": "BAE Systems Australia Ltd.(not in business)",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2000-09-07",
+    "navigation": "Int"
+  },
+  "705": {
+    "tac_num": "705",
+    "model_name": "AN/URT-140",
+    "manufacturer": "Tadiran Spectralink Ltd.",
+    "beacon_type": "ELT (Auto) / PLB",
+    "last_rev_date": "2010-01-25",
+    "issue_date": "2002-07-17",
+    "navigation": "N/A"
+  },
+  "706": {
+    "tac_num": "706",
+    "model_name": "SARBE G2R",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "PLB",
+    "last_rev_date": "2022-01-06",
+    "issue_date": "2022-01-06",
+    "navigation": "Int"
+  },
+  "707": {
+    "tac_num": "707",
+    "model_name": "NH90 RBA",
+    "manufacturer": "EADS Deutschland GmbH",
+    "beacon_type": "ELT (Auto)",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2005-09-13",
+    "navigation": "Ext"
+  },
+  "708": {
+    "tac_num": "708",
+    "model_name": "AN/PRC-112G(A)",
+    "manufacturer": "General Dynamics C4 Systems",
+    "beacon_type": "PLB",
+    "last_rev_date": "2017-02-16",
+    "issue_date": "2006-05-15",
+    "navigation": "Int"
+  },
+  "709": {
+    "tac_num": "709",
+    "model_name": "SARBE 6-406G EVO, SARBE 6-406G EVO GS; SARBE 6-406G EVO RGS, SARBE 6-406G EVO GSY, SARBE 6-406G EVO HGS",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2019-04-02",
+    "navigation": "internal (GPS, GLONASS, Galileo)"
+  },
+  "710": {
+    "tac_num": "710",
+    "model_name": "PRC-434G/CS(W)",
+    "manufacturer": "Tadiran Spectralink Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-04-21",
+    "issue_date": "2008-02-13",
+    "navigation": "Internal GPS receiver"
+  },
+  "711": {
+    "tac_num": "711",
+    "model_name": "SLB-2000-100",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2011-12-31",
+    "issue_date": "2008-07-17",
+    "navigation": "Int"
+  },
+  "712": {
+    "tac_num": "712",
+    "model_name": "AAPLB",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "PLB",
+    "last_rev_date": "2012-04-02",
+    "issue_date": "2008-07-17",
+    "navigation": "Int"
+  },
+  "713": {
+    "tac_num": "713",
+    "model_name": "SEIPLB-25B",
+    "manufacturer": "Signal Engineering, Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2016-06-22",
+    "issue_date": "2008-11-25",
+    "navigation": "Int GPS"
+  },
+  "714": {
+    "tac_num": "714",
+    "model_name": "R-855A1M",
+    "manufacturer": "Public Joint Stock Company \u201cYaroslavl Radioworks\u201d (PJSC YARW)",
+    "beacon_type": "ELT (Man) - Survival",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2009-01-22",
+    "navigation": "No"
+  },
+  "715": {
+    "tac_num": "715",
+    "model_name": "MR510",
+    "manufacturer": "Becker Avionics GmbH",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2009-12-31",
+    "navigation": "Int"
+  },
+  "716": {
+    "tac_num": "716",
+    "model_name": "AN/PRC-648 BEACON SET, RADIO",
+    "manufacturer": "Tadiran Spectralink Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2022-03-25",
+    "issue_date": "2011-08-09",
+    "navigation": "Internal"
+  },
+  "717": {
+    "tac_num": "717",
+    "model_name": "EMERGENCY",
+    "manufacturer": "Breitling SA",
+    "beacon_type": "PLB",
+    "last_rev_date": "2018-01-24",
+    "issue_date": "2014-04-18",
+    "navigation": "No"
+  },
+  "718": {
+    "tac_num": "718",
+    "model_name": "T-1630A/SRT ",
+    "manufacturer": "Ultra Electronics Ocean Systems",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2016-05-10",
+    "issue_date": "2015-09-10",
+    "navigation": "Not documented"
+  },
+  "719": {
+    "tac_num": "719",
+    "model_name": "SEEPIRB406-GPS",
+    "manufacturer": "Thales UK Limited ( Ex- Thales Underwater Systems Limited)",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2016-12-16",
+    "navigation": "internal GNSS (GPS) receiver"
+  },
+  "720": {
+    "tac_num": "720",
+    "model_name": "T21-3",
+    "manufacturer": "Concern CSRI Elektropribor, JSC",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2017-02-16",
+    "navigation": "No"
+  },
+  "721": {
+    "tac_num": "721",
+    "model_name": "PSP200",
+    "manufacturer": "SRC Co., Ltd",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2020-04-06",
+    "navigation": "internal"
+  },
+  "722": {
+    "tac_num": "722",
+    "model_name": "AN/PRC-648T4",
+    "manufacturer": "Tadiran Spectralink Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2018-03-08",
+    "navigation": "internal (GPS, Glonass, Galileo)"
+  },
+  "723": {
+    "tac_num": "723",
+    "model_name": "01-P58100R004",
+    "manufacturer": "General Dynamics ",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2019-08-22",
+    "navigation": "Internal (GPS, Glonass)"
+  },
+  "724": {
+    "tac_num": "724",
+    "model_name": "PRSS1b_PRD",
+    "manufacturer": "Orolia Government Systems, Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2019-08-23",
+    "issue_date": "2019-08-23",
+    "navigation": "Int"
+  },
+  "726": {
+    "tac_num": "726",
+    "model_name": "P-855C",
+    "manufacturer": "",
+    "beacon_type": "ELT ELT (Man) - Survival",
+    "last_rev_date": "",
+    "issue_date": "2023-01-10",
+    "navigation": "internal receiver (GPS, GLONASS)"
+  },
+  "727": {
+    "tac_num": "727",
+    "model_name": "DFIRU (UNIT 2) MUP",
+    "manufacturer": "DRS Technologies Canada Ltd. (former DRS Flight Safety & Communications)",
+    "beacon_type": "ELT (Automatic Deployable)",
+    "last_rev_date": "",
+    "issue_date": "2023-02-14",
+    "navigation": "Internal"
+  },
+  "1001": {
+    "tac_num": "1001",
+    "model_name": "McMurdo SmartFind G8 AIS Return Link",
+    "manufacturer": "Orolia Limited",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2021-01-13",
+    "issue_date": "2021-01-13",
+    "navigation": "internal (GPS, GLONASS, Galileo)"
+  },
+  "1003": {
+    "tac_num": "1003",
+    "model_name": "PLB-435 ",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-04-23",
+    "issue_date": "2021-04-23",
+    "navigation": "Int"
+  },
+  "1351": {
+    "tac_num": "1351",
+    "model_name": "Tron 60AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2022-03-25",
+    "issue_date": "2022-01-06",
+    "navigation": "Int"
+  },
+  "1353": {
+    "tac_num": "1353",
+    "model_name": "Tron 40AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2022-03-25",
+    "issue_date": "2022-02-04",
+    "navigation": "Int"
+  },
+  "1354": {
+    "tac_num": "1354",
+    "model_name": "Tron 40VDR AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "EPIRB FF (VDR)",
+    "last_rev_date": "2023-03-03",
+    "issue_date": "2022-02-04",
+    "navigation": "Int"
+  },
+  "1362": {
+    "tac_num": "1362",
+    "model_name": "EPIRB3 Pro",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "1363": {
+    "tac_num": "1363",
+    "model_name": "EPIRB3 Pro",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "1364": {
+    "tac_num": "1364",
+    "model_name": "RLB-44",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "1365": {
+    "tac_num": "1365",
+    "model_name": "RLB-44",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2022-10-14",
+    "navigation": "internal GPS"
+  },
+  "1366": {
+    "tac_num": "1366",
+    "model_name": "PLB3",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-06-23",
+    "issue_date": "2023-06-23",
+    "navigation": "Int"
+  },
+  "1367": {
+    "tac_num": "1367",
+    "model_name": "PLB-450",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-06-23",
+    "issue_date": "2023-06-23",
+    "navigation": "Int"
+  },
+  "1375": {
+    "tac_num": "1375",
+    "model_name": "Tron 60AIS",
+    "manufacturer": "Jotron AS ( former - Jotron Electronics A.S.)",
+    "beacon_type": "FF EPIRB",
+    "last_rev_date": "2023-03-02",
+    "issue_date": "2023-03-02",
+    "navigation": "Int"
+  },
+  "1377": {
+    "tac_num": "1377",
+    "model_name": "EPIRB2 Pro",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "1378": {
+    "tac_num": "1378",
+    "model_name": "EPIRB2 Pro",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "1379": {
+    "tac_num": "1379",
+    "model_name": "RLB-43",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "1380": {
+    "tac_num": "1380",
+    "model_name": "RLB-43",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "FF / Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "1381": {
+    "tac_num": "1381",
+    "model_name": "RLB-45",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "1382": {
+    "tac_num": "1382",
+    "model_name": "RLB-45",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "Non FF EPIRB",
+    "last_rev_date": "2023-03-23",
+    "issue_date": "2023-03-23",
+    "navigation": "internal GPS"
+  },
+  "2001": {
+    "tac_num": "2001",
+    "model_name": "FASTFIND RETURN LINK",
+    "manufacturer": "McMurdo Ltd",
+    "beacon_type": "ELT(Man)/PLB",
+    "last_rev_date": "2023-01-30",
+    "issue_date": "2020-05-19",
+    "navigation": "Int"
+  },
+  "2003": {
+    "tac_num": "2003",
+    "model_name": "PLB-435 ",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-04-23",
+    "issue_date": "2021-04-23",
+    "navigation": "Int"
+  },
+  "2350": {
+    "tac_num": "2350",
+    "model_name": "KANNAD ULTIMA-S-04",
+    "manufacturer": "Orolia S.A.S. ",
+    "beacon_type": "ELT (S)",
+    "last_rev_date": "2022-01-06",
+    "issue_date": "2022-01-06",
+    "navigation": "Internal"
+  },
+  "2366": {
+    "tac_num": "2366",
+    "model_name": "PLB3",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-06-23",
+    "issue_date": "2023-06-23",
+    "navigation": "Int"
+  },
+  "2367": {
+    "tac_num": "2367",
+    "model_name": "PLB-450",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-06-23",
+    "issue_date": "2023-06-23",
+    "navigation": "Int"
+  },
+  "3001": {
+    "tac_num": "3001",
+    "model_name": "FASTFIND RETURN LINK",
+    "manufacturer": "McMurdo Ltd",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-01-30",
+    "issue_date": "2020-05-19",
+    "navigation": "Int"
+  },
+  "3002": {
+    "tac_num": "3002",
+    "model_name": "MR510/2-XX-(X1X)",
+    "manufacturer": "Becker Avionics GmbH",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-01-19",
+    "navigation": "Int"
+  },
+  "3003": {
+    "tac_num": "3003",
+    "model_name": "PLB-435 ",
+    "manufacturer": "ACR Electronics Inc.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2021-04-23",
+    "issue_date": "2021-04-23",
+    "navigation": "Int"
+  },
+  "3366": {
+    "tac_num": "3366",
+    "model_name": "PLB3",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-06-23",
+    "issue_date": "2022-10-20",
+    "navigation": "Int"
+  },
+  "3367": {
+    "tac_num": "3367",
+    "model_name": "PLB-450",
+    "manufacturer": "Ocean Signal Ltd.",
+    "beacon_type": "PLB",
+    "last_rev_date": "2023-06-23",
+    "issue_date": "2022-10-20",
+    "navigation": "Int"
+  },
+  "3701": {
+    "tac_num": "3701",
+    "model_name": "MR510/2-00-(114)",
+    "manufacturer": "Becker Avionics GmbH",
+    "beacon_type": "PLB",
+    "last_rev_date": "0000-00-00",
+    "issue_date": "2021-03-05",
+    "navigation": "Int"
+  },
+  "11700": {
+    "tac_num": "11700",
+    "model_name": "PRSS1b PRD",
+    "manufacturer": "Orolia Government Systems, Inc.",
+    "beacon_type": "",
+    "last_rev_date": "",
+    "issue_date": "2022-12-14",
+    "navigation": "internal  GNSS receiver (GPS)"
+  }
+}
