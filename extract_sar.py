@@ -1,5 +1,6 @@
 import argparse
 import json
+from copy import deepcopy
 from bitstring import BitArray
 
 from input_modules.input_sbf import SBF
@@ -49,7 +50,7 @@ class SARMessage:
         message_code = MESSAGE_CODES(self.current_message[60:64].bin)
         SRLM_params = self.current_message[64:]
 
-        sar_message_dict = dict(BASE_SAR_MESSAGE)
+        sar_message_dict = deepcopy(BASE_SAR_MESSAGE)
         sar_message_dict['metadata']['wn'] = self.last_gst.wn
         sar_message_dict['metadata']['tow'] = self.last_gst.tow
         sar_message_dict['metadata']['utc'] = self.last_gst.utc.strftime('%Y/%m/%d %H:%M:%S')

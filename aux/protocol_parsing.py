@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 from enum import Enum
 from bitstring import BitArray
 from aux.mod_baudot_code import MOD_BAUDOT_CODE
@@ -54,7 +55,7 @@ def parse_country_code(country_code_bits: BitArray):
     return country_code, country_code_name
 
 def parse_RLS_location_protocol(beacon_id: BitArray):
-    rls_loc_dict = dict(RLS_LOCATION_PROTOCOL)
+    rls_loc_dict = deepcopy(RLS_LOCATION_PROTOCOL)
 
     is_mmsi = (beacon_id[17:21].bin == '1111')
 
@@ -62,7 +63,7 @@ def parse_RLS_location_protocol(beacon_id: BitArray):
         truncated_MMSI = beacon_id[21:41]
         rls_loc_dict['beacon_type']['value'] = BEACON_TYPE_MMSI_lt[beacon_id[15:17].bin]
         rls_loc_dict['beacon_type']['raw_value'] = beacon_id[15:17].bin
-        rls_loc_dict['truncated_mmsi']['value'] = truncated_MMSI.uint
+        rls_loc_dict['truncated_mmsi']['value'] = f"{truncated_MMSI.uint:06d}"
         rls_loc_dict['truncated_mmsi']['raw_value'] = truncated_MMSI.bin
     else:
         beacon_type_bin = beacon_id[15:17].bin
@@ -95,7 +96,7 @@ def parse_RLS_location_protocol(beacon_id: BitArray):
     return rls_loc_dict
 
 def parse_orbitography_protocol(beacon_id: BitArray):
-    orbitography_dict = dict(ORBITOGRAPHY_PROTOCOL)
+    orbitography_dict = deepcopy(ORBITOGRAPHY_PROTOCOL)
 
     seven_char_id = beacon_id[14:56]
     last_four_zeros = beacon_id[56:]
@@ -145,7 +146,7 @@ PROTOCOL_CODES = {
 }
 
 def parse_beacon_id(beacon_id: BitArray):
-    beacon_id_dict = dict(BASE_BEACON_ID)
+    beacon_id_dict = deepcopy(BASE_BEACON_ID)
 
     protocol_flag = PROTOCOL_FLAG(beacon_id[0])
     country_code, country_code_name = parse_country_code(beacon_id[1:11])
@@ -156,7 +157,7 @@ def parse_beacon_id(beacon_id: BitArray):
         protocol_code_bits = beacon_id[11:14].bin
 
     try:
-        protocol_code  = PROTOCOL_CODES[protocol_code_bits]
+        protocol_code = PROTOCOL_CODES[protocol_code_bits]
     except KeyError:
         protocol_code = PROTOCOL_CODES["unknown"]
 
