@@ -69,7 +69,7 @@ class SARMessage:
 parser = argparse.ArgumentParser(description='Parse the Galileo I/NAV message for E1-B to extract and parse the SAR information.')
 parser.add_argument('in_file', nargs='?', default='24_hours.sbf')
 parser.add_argument('out_file', nargs='?', default='sar_output.json')
-parser.add_argument('-s', '--skip-test', action='store_true')
+parser.add_argument('-s', '--skip-test', action='store_true', help="don't show the Test Service messages")
 args = parser.parse_args()
 
 if __name__ == '__main__':
@@ -83,13 +83,11 @@ if __name__ == '__main__':
 
         if not sar_data.is_nominal_page:
             continue
-        
+
         sar_message = sar_manager_svid[sar_data.svid].new_sar_data(sar_data)
 
         if sar_message is not None:
-
             stored_sar_messages.append(sar_message)
-
             if args.skip_test and sar_message['message_code']['value'] == MESSAGE_CODES.TEST_SERVICE.name:
                 continue
             print_sar_message(sar_message)
