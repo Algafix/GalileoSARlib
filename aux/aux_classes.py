@@ -1,5 +1,6 @@
 from enum import IntEnum, Enum
 from typing import Union
+from datetime import datetime, timedelta
 
 from bitstring import BitArray
 
@@ -151,4 +152,11 @@ class GST:
     @property
     def total_seconds(self):
         return (self.wn * (MAX_TOW+1)) + self.tow
+    
+    @property
+    def utc(self) -> datetime:
+        GPS_START = datetime(1980,1,6)
+        UTC_LEAP_SECONDS = 18
+        utc_time = GPS_START + timedelta(weeks=self.wn, seconds=self.tow-UTC_LEAP_SECONDS)
+        return utc_time
 

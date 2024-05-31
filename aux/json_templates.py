@@ -2,7 +2,7 @@
 def print_sar_message(sar_message: dict, tab='\t'):
     for key, block in sar_message.items():
         if key == 'metadata':
-            print(f"{block['wn']} {block['tow']} - {block['svid']} SAR MESSAGE")
+            print(f"{block['utc']} - {block['wn']} {block['tow']} - SVID {block['svid']}")
         else:
             try:
                 if 'subblock' in key:
