@@ -1,4 +1,5 @@
 import json
+import traceback
 from copy import deepcopy
 from enum import Enum
 from bitstring import BitArray
@@ -71,18 +72,26 @@ def parse_RLS_location_protocol(beacon_id: BitArray):
         truncated_cs_rls_tac = beacon_id[17:27]
         prod_serial_number = beacon_id[27:41]
         full_tac = f"{TAC_PREFIX_lt[beacon_type_str]}{truncated_cs_rls_tac.uint}"
-        beacon_info = TAC_MODELS[full_tac]
+
         rls_loc_dict['beacon_type']['value'] = beacon_type_str
         rls_loc_dict['beacon_type']['raw_value'] = beacon_type_bin
         rls_loc_dict['trunc_tac']['value'] = truncated_cs_rls_tac.uint
         rls_loc_dict['trunc_tac']['raw_value'] = truncated_cs_rls_tac.bin
         rls_loc_dict['tac']['value'] = full_tac
-        rls_loc_dict['tac_subblock']['manufacturer']['value'] = beacon_info['manufacturer']
-        rls_loc_dict['tac_subblock']['model_name']['value'] = beacon_info['model_name']
-        rls_loc_dict['tac_subblock']['last_rev_date']['value'] = beacon_info['last_rev_date']
-        rls_loc_dict['tac_subblock']['navigation']['value'] = beacon_info['navigation']
         rls_loc_dict['serial_num']['value'] = prod_serial_number.uint
         rls_loc_dict['serial_num']['raw_value'] = prod_serial_number.bin
+
+        try:
+            beacon_info = TAC_MODELS[full_tac]
+            rls_loc_dict['tac_subblock']['manufacturer']['value'] = beacon_info['manufacturer']
+            rls_loc_dict['tac_subblock']['model_name']['value'] = beacon_info['model_name']
+            rls_loc_dict['tac_subblock']['last_rev_date']['value'] = beacon_info['last_rev_date']
+            rls_loc_dict['tac_subblock']['navigation']['value'] = beacon_info['navigation']
+        except KeyError:
+            rls_loc_dict['tac_subblock']['manufacturer']['value'] = 'unknown'
+            rls_loc_dict['tac_subblock']['model_name']['value'] = 'unknown'
+            rls_loc_dict['tac_subblock']['last_rev_date']['value'] = 'unknown'
+            rls_loc_dict['tac_subblock']['navigation']['value'] = 'unknown'
 
     lat = beacon_id[41]
     lat_degrees = beacon_id[42:50] 
@@ -168,6 +177,13 @@ def parse_beacon_id(beacon_id: BitArray):
     beacon_id_dict['protocol_code']['value'] = protocol_code['name']
     beacon_id_dict['protocol_code']['raw_value'] = protocol_code_bits
 
-    beacon_id_dict.update(protocol_code['parse_function'](beacon_id))
+    try:
+        parsed_protocol = protocol_code['parse_function'](beacon_id)
+    except Exception as e:
+        print(f"Cant parse BeaconID protocol!")
+        traceback.print_exc()
+        parsed_protocol = {}
+
+    beacon_id_dict.update(parsed_protocol)
 
     return beacon_id_dict
