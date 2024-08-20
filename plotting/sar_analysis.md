@@ -36,11 +36,11 @@ The station `V?????E` seems to be a test station since the beacon ID is not prop
 ![All satellites by ground station](img/all_base_stations_svid.png)
 ![Messages per satellite by ground station](img/messages_per_satellite_by_station.png)
 
-It is also interesting to analyze at what time do the ground stations send the orbitography messages and if there is any pattern. A quick analisis shows that all the ground stations tend to send the messages at the same offset withing a minute.
+It is also interesting to analyze at what time withing subframes do the ground stations send the orbitography messages and if there is any pattern. A quick analisis shows that all the ground stations tend to send the messages at the same offset withing 60 seconds (2 subframes).
 
-The offset is 11 seconds from the start of a UTC minute, or 29 seconds from the start of the GNSS minute (currently, 18 leap seconds). In other words, at the end of every other subframe.
+The offset is 29 seconds from the start of a GNSS minute. In other words, at the end of every other subframe. Note that the displayed time is the start of transmission time for the full page containing the last message fragment, and each message is composed of 4 fragments transmitted each on a consecutive full page.
 
-Note that the displayed time is the start of transmission time for the full page containing the last message fragment, and each message is composed of 3 fragments transmitted each on a consecutive full page. Therefore, **the ground station priorize the transmission of the orbitography messages on the last 3 full pages of every other GNSS subframe.**
+Therefore, **the ground station priorize the transmission of the orbitography messages on the last 4 full pages of every other GNSS subframe.**
 
 ![Messages offset within a minute](img/message_offset_in_1minute.png)
 
