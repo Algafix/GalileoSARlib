@@ -8,20 +8,6 @@ FILENAME = "./raw_data/2024-07-12.json"
 MAX_GAL_SATS = 36
 ALL_GAL_SATS = np.arange(1, MAX_GAL_SATS+1)
 
-def heatmat_norm_by_row(sar_messages_dict, max_y_axis):
-    total_messages = np.zeros((max_y_axis, 30))
-    for svid in np.arange(max_y_axis):
-        tows_mod_60_sec = [tow % 60 for tow in sar_messages_dict[svid+1]]
-        unique_tows, counts = np.unique(tows_mod_60_sec, return_counts=True)
-        for tow, count in zip(unique_tows, counts):
-            total_messages[svid][tow//2] = count
-
-    rows_shift_to_0 = (total_messages - np.min(total_messages, axis=1)[:, np.newaxis])
-    rows_max_magnitude = np.ptp(total_messages, axis=1)[:, np.newaxis]
-    row_normalized_total_messages = np.divide(rows_shift_to_0, rows_max_magnitude, out=np.zeros(total_messages.shape), where=rows_max_magnitude!=0) 
-
-    return row_normalized_total_messages
-
 with open(FILENAME, 'r') as fd:
     all_sar_json = json.load(fd)
 
@@ -75,5 +61,43 @@ plot_heatmat_mgs_offset(rls_by_svid.values(),
                         [str(svid) for svid in ALL_GAL_SATS],
                         "SVID",
                         "RLS message reception time in 60 seconds modulus (normalized per row)")
+
+
+Orb29_RLS = 0
+Orb29_noRLS = 0
+noOrb29_RLS = 0
+noOrb29_noRLS = 0
+
+for svid, orb_tows in orbitography_by_svid.items():
+    if svid in [11, 12]:
+        continue
+
+    for tow in orb_tows:
+        tow_mod60 = tow % 60
+        tow_range = range(tow - tow_mod60, tow - tow_mod60 + 60)
+        if tow_mod60 == 29:
+            if any([1 for rls_tow in rls_by_svid[svid] if rls_tow in tow_range]):
+                Orb29_RLS += 1
+            else:
+                Orb29_noRLS += 1
+        else:
+            if any([1 for rls_tow in rls_by_svid[svid] if rls_tow in tow_range]):
+                noOrb29_RLS += 1
+            else:
+                noOrb29_noRLS += 1
+
+print(f"""
+Orbito at 29, RLS same 60 seconds: {Orb29_RLS}
+Orbito at 29, no RLS same 60 seconds: {Orb29_noRLS}
+No Orbito at 29, RLS same 60 seconds: {noOrb29_RLS}
+No Orbito at 29, no RLS same 60 seconds: {noOrb29_noRLS}      
+""")
+
+
+            
+
+
+
+
 
 plt.show()
