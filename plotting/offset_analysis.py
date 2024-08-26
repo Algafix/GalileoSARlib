@@ -1,7 +1,8 @@
 import json
 import numpy as np
 import matplotlib.pyplot as plt
-from copy import copy
+
+from auxiliar_plot import plot_heatmat_mgs_offset
 
 FILENAME = "./raw_data/2024-07-12.json"
 MAX_GAL_SATS = 36
@@ -62,31 +63,17 @@ unique_tows, counts = np.unique(tows_mod_60_sec, return_counts=True)
 str_unique_tows = [str(unique_tow) for unique_tow in unique_tows]
 plt.bar(str_unique_tows, counts)
 
-log_cmap = copy(plt.get_cmap('viridis'))
-log_cmap.set_bad(log_cmap(0))
 
-plt.figure(figsize=(9,6))
-plt.title(f"Orbitography message reception time in 60 seconds modulus (normalized per row)")
-row_normalized_total_messages = heatmat_norm_by_row(orbitography_by_svid, MAX_GAL_SATS)
-plt.pcolormesh(row_normalized_total_messages, cmap=log_cmap, edgecolors='k', linewidths=0.5)
-#plt.pcolormesh(row_normalized_total_messages, cmap=log_cmap, edgecolors='k', linewidths=0.5, norm='log')
-plt.yticks(np.arange(MAX_GAL_SATS) + 0.5, [str(svid) for svid in ALL_GAL_SATS])
-plt.xticks(np.arange(30) + 0.5, [str(i) for i in np.arange(1,61,2)])
-plt.ylabel(f"SVID")
-plt.xlabel(f"Reception time of the last page of the SAR message (s)")
-plt.tight_layout()
-plt.colorbar()
+plot_heatmat_mgs_offset(orbitography_by_svid.values(),
+                        MAX_GAL_SATS,
+                        [str(svid) for svid in ALL_GAL_SATS],
+                        "SVID",
+                        "Orbitography message reception time in 60 seconds modulus (normalized per row)")
 
-plt.figure(figsize=(9,6))
-plt.title(f"RLS message reception time in 60 seconds modulus (normalized per row)")
-row_normalized_total_messages = heatmat_norm_by_row(rls_by_svid, MAX_GAL_SATS)
-plt.pcolormesh(row_normalized_total_messages, cmap=log_cmap, edgecolors='k', linewidths=0.5)
-#plt.pcolormesh(row_normalized_total_messages, cmap=log_cmap, edgecolors='k', linewidths=0.5, norm='log')
-plt.yticks(np.arange(MAX_GAL_SATS) + 0.5, [str(svid) for svid in ALL_GAL_SATS])
-plt.xticks(np.arange(30) + 0.5, [str(i) for i in np.arange(1,61,2)])
-plt.ylabel(f"SVID")
-plt.xlabel(f"Reception time of the last page of the SAR message (s)")
-plt.tight_layout()
-plt.colorbar()
+plot_heatmat_mgs_offset(rls_by_svid.values(), 
+                        MAX_GAL_SATS, 
+                        [str(svid) for svid in ALL_GAL_SATS],
+                        "SVID",
+                        "RLS message reception time in 60 seconds modulus (normalized per row)")
 
 plt.show()

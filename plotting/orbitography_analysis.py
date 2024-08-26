@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from copy import copy
 
+from auxiliar_plot import plot_heatmat_mgs_offset
+
 
 FILENAME = "./raw_data/2024-07-12.json"
 MAX_GAL_SATS = 36
@@ -100,32 +102,6 @@ def plot_reception_time_offset_of_messages_from_base_station_in_1min(station_msg
     str_unique_tows = [str(unique_tow) for unique_tow in unique_tows]
     plt.bar(str_unique_tows, counts)
 
-def plot_heatmap_of_reception_time_offset(orbitography_by_station):
-
-    total_messages = np.zeros((len(orbitography_by_station), 30))
-    for i, station in enumerate(orbitography_by_station):
-        tows_mod_60_sec = [tow % 60 for tow in orbitography_by_station[station]["tow"]]
-        unique_tows, counts = np.unique(tows_mod_60_sec, return_counts=True)
-        for tow, count in zip(unique_tows, counts):
-            total_messages[i][tow//2] = count
-
-    rows_shift_to_0 = (total_messages - np.min(total_messages, axis=1)[:, np.newaxis])
-    rows_max_magnitude = np.ptp(total_messages, axis=1)[:, np.newaxis]
-    row_normalized_total_messages = np.divide(rows_shift_to_0, rows_max_magnitude, out=np.zeros(total_messages.shape), where=rows_max_magnitude!=0) 
-
-    log_cmap = copy(plt.get_cmap('viridis'))
-    log_cmap.set_bad(log_cmap(0))
-
-    plt.figure(figsize=(9,6))
-    plt.title(f"Orbitography message reception time in 60 seconds modulus by ground station")
-    plt.pcolormesh(row_normalized_total_messages, cmap=log_cmap, edgecolors='k', linewidths=0.5)
-    plt.yticks(np.arange(len(orbitography_by_station)) + 0.5, orbitography_by_station)
-    plt.xticks(np.arange(30) + 0.5, [str(i) for i in np.arange(1,61,2)])
-    plt.ylabel(f"Ground Station")
-    plt.xlabel(f"Reception time of the last page of the SAR message (s)")
-    plt.tight_layout()
-    plt.colorbar()
-
 # ================================================= #
 
 if __name__== '__main__':
@@ -163,7 +139,12 @@ if __name__== '__main__':
     plot_messages_for_each_satellite_and_station(orbitography_by_ground_station, country_of_station)
     plot_total_messages_for_each_satellite(orbitography_by_svid)
     plot_total_messages_for_each_satellite_and_station(orbitography_by_ground_station, country_of_station)
-    plot_heatmap_of_reception_time_offset(orbitography_by_ground_station)
+    plot_heatmat_mgs_offset([station["tow"] for station in orbitography_by_ground_station.values()],
+                            len(orbitography_by_ground_station),
+                            orbitography_by_ground_station,
+                            "Ground Stations",
+                            "Orbitography message reception time in 60 seconds modulus by ground station")
+
 
     for station_name, station_msgs in orbitography_by_ground_station.items():
         country = country_of_station[station_name]
