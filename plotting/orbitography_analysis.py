@@ -119,7 +119,8 @@ if __name__== '__main__':
             
             if not IGNORE_TRAIL_BITS and sar_message['beacon_id_parsing_subblock']['trail_bits']['raw_value'] != '0000':
                 #print(json.dumps(sar_message))
-                continue
+                #continue
+                pass
 
             tow = sar_message['metadata']['tow']
             ground_station = sar_message['beacon_id_parsing_subblock']['beacon_id_text']['value']

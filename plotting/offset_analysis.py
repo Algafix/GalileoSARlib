@@ -27,7 +27,7 @@ for sar_message in all_sar_json:
         print(f"Protocol not contemplated! {protocol}")
         continue
 
-plt.figure()
+plt.figure(figsize=(9,6))
 plt.title(f"RLS - Reception time offset within 2 subframes period")
 plt.xlabel("Seconds in GNSS Time")
 plt.ylabel("Number of messages")
@@ -37,8 +37,9 @@ for svid in ALL_GAL_SATS:
 unique_tows, counts = np.unique(tows_mod_60_sec, return_counts=True)
 str_unique_tows = [str(unique_tow) for unique_tow in unique_tows]
 plt.bar(str_unique_tows, counts)
+plt.tight_layout()
 
-plt.figure()
+plt.figure(figsize=(9,6))
 plt.title(f"Orbitography - Reception time offset within 2 subframes period")
 plt.xlabel("Seconds in GNSS Time")
 plt.ylabel("Number of messages")
@@ -48,6 +49,7 @@ for svid in ALL_GAL_SATS:
 unique_tows, counts = np.unique(tows_mod_60_sec, return_counts=True)
 str_unique_tows = [str(unique_tow) for unique_tow in unique_tows]
 plt.bar(str_unique_tows, counts)
+plt.tight_layout()
 
 
 plot_heatmat_mgs_offset(orbitography_by_svid.values(),
