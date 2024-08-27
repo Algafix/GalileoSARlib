@@ -50,6 +50,7 @@ There is no clear difference on the message offset regarding the ground station.
 
 ![Orbitography messages offset within a minute](img/orbito_offset_all_sats.png)
 ![Heatmat or orbitography messages offset within a minute by svid](img/heatmap_orbito_svid.png)
+![Heatmat or orbitography messages offset within a minute by svid in LOG scale](img/heatmap_orbito_svid_log.png)
 ![Heatmat or orbitography messages offset within a minute by ground station](img/heatmap_orbito_ground_station.png)
 
 RLS Location Protocol messages
@@ -72,4 +73,5 @@ Data collected on 2024-08-24 (~1 month later) show a similar behaviour.
 
 ![Statistics of SAR messags by protocol](img/day2_stats.png)
 ![Heatmat of Orbitography messages offset within a minute by svid](img/day2_heatmap_orbito_svid.png)
+![Heatmat of Orbitography messages offset within a minute by svid in LOG scale](img/day2_heatmap_orbito_svid_log.png)
 ![Heatmat of RLS messages offset within a minute by svid](img/day2_heatmap_rls_svid.png)
