@@ -124,7 +124,7 @@ def parse_orbitography_protocol(beacon_id: BitArray):
     return orbitography_dict
 
 def not_implemented(beacon_id: BitArray):
-    pass
+    return {}
 
 PROTOCOL_CODES = {
     "000":
