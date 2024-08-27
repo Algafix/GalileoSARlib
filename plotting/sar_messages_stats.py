@@ -11,12 +11,16 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 
+FILENAME = "./raw_data/2024-07-12.json"
+FILENAME = "./raw_data/2024-08-25.json"
+FILENAME = "./raw_data/2024-08-24.json"
+
 sar_messages = {}
 sar_protocols = {}
 rls_beacon_types = {}
 rls_by_country_code = {}
 
-with open("./raw_data/2024-07-12.json", 'r') as fd:
+with open(FILENAME, 'r') as fd:
     all_sar_json = json.load(fd)
 
 for sar_message in all_sar_json:

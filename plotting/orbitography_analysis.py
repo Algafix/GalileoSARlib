@@ -7,6 +7,8 @@ from auxiliar_plot import plot_heatmat_mgs_offset
 
 
 FILENAME = "./raw_data/2024-07-12.json"
+FILENAME = "./raw_data/2024-08-25.json"
+FILENAME = "./raw_data/2024-08-24.json"
 MAX_GAL_SATS = 36
 IGNORE_TRAIL_BITS = False
 PLOT_MISC = False

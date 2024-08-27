@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from auxiliar_plot import plot_heatmat_mgs_offset
 
 FILENAME = "./raw_data/2024-07-12.json"
+FILENAME = "./raw_data/2024-08-25.json"
+FILENAME = "./raw_data/2024-08-24.json"
 MAX_GAL_SATS = 36
 ALL_GAL_SATS = np.arange(1, MAX_GAL_SATS+1)
 

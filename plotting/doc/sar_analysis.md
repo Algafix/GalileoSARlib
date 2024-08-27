@@ -63,4 +63,13 @@ There is one outlier with satellites 34 and 30. However, it may be an artifact o
 
 ![Timeplot of RLS messages by svid](img/rls_time_plot_by_svid.png)
 ![RLS messages offset within a minute](img/rls_offset_all_sats.png)
-![Heatmat or RLS messages offset within a minute by svid](img/heatmap_rls_svid.png)
+![Heatmat of RLS messages offset within a minute by svid](img/heatmap_rls_svid.png)
+
+New data: 2024-08-24
+===
+
+Data collected on 2024-08-24 (~1 month later) show a similar behaviour.
+
+![Statistics of SAR messags by protocol](img/day2_stats.png)
+![Heatmat of Orbitography messages offset within a minute by svid](img/day2_heatmap_orbito_svid.png)
+![Heatmat of RLS messages offset within a minute by svid](img/day2_heatmap_rls_svid.png)
