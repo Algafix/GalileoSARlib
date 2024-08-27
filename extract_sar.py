@@ -14,7 +14,7 @@ class SARMessage:
     def __init__(self, svid: int) -> None:
         self.current_message = BitArray()
         self.rlm_id = RLM(0)
-        self.last_gst = GST()
+        self.last_gst = GST(wn=0, tow=0)
         self.svid = svid
 
     def _start_message(self, sar_data: SARFormat):
