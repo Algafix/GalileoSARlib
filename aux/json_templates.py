@@ -92,3 +92,18 @@ ORBITOGRAPHY_PROTOCOL = {
     }
 }
 
+EPIRB_MARITIME_USER_PROTOCOL = {
+    'truncated_mmsi': {
+        'name': '6-digit MMSI',
+    },
+    'specific_beacon_number': {
+        'name': 'Specific Beacon Number',
+    },
+    'spare': {
+        'name': 'Spare',
+    },
+    'auxiliary_device_type': {
+        'name': 'Auxiliary Radio-Location Device Type(s)',
+    },
+}
+

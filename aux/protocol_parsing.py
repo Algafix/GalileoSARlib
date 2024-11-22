@@ -4,7 +4,7 @@ from copy import deepcopy
 from enum import Enum
 from bitstring import BitArray
 from aux.mod_baudot_code import MOD_BAUDOT_CODE
-from aux.json_templates import BASE_BEACON_ID, RLS_LOCATION_PROTOCOL, ORBITOGRAPHY_PROTOCOL
+from aux.json_templates import BASE_BEACON_ID, RLS_LOCATION_PROTOCOL, ORBITOGRAPHY_PROTOCOL, EPIRB_MARITIME_USER_PROTOCOL
 
 with open('./aux/ITU_MID.json', 'r') as itu_mid_file:
     # https://www.itu.int/en/ITU-R/terrestrial/fmd/Pages/mid.aspx
@@ -21,6 +21,13 @@ class PROTOCOL_FLAG(Enum):
 PROTOCOL_FLAG_lt = {
     PROTOCOL_FLAG.STANDARD_OR_NATIONAL: 'Standard or national location protocols',
     PROTOCOL_FLAG.USER_PROTOCOLS: 'User or user-location protocols',
+}
+
+AUXILIAR_DEVICE_TYPE_lt = {
+    '00': 'No Auxiliary radio-locating device',
+    '01': '121.5 MHz',
+    '10': 'Maritime locating: 9 GHz SART',
+    '11': 'Other auxiliary radio-locating device(s)',
 }
 
 BEACON_TYPE_lt = {
@@ -54,6 +61,16 @@ def parse_country_code(country_code_bits: BitArray):
     except KeyError:
         country_code_name = "Unknown"
     return country_code, country_code_name
+
+def convert_baudot(bits: BitArray):
+    msg_baudot_list = []
+    for chunk in bits.cut(6):
+        try:
+            msg_baudot_list.append(MOD_BAUDOT_CODE[chunk.bin])
+        except KeyError:
+            msg_baudot_list.append('?')
+    msg_baudot = ''.join(msg_baudot_list)
+    return msg_baudot
 
 def parse_RLS_location_protocol(beacon_id: BitArray):
     rls_loc_dict = deepcopy(RLS_LOCATION_PROTOCOL)
@@ -109,19 +126,35 @@ def parse_orbitography_protocol(beacon_id: BitArray):
 
     seven_char_id = beacon_id[14:56]
     last_four_zeros = beacon_id[56:]
-    cleartext_char_list = []
-    for chunk in seven_char_id.cut(6):
-        try:
-            cleartext_char_list.append(MOD_BAUDOT_CODE[chunk.bin])
-        except KeyError:
-            cleartext_char_list.append('?')
-    cleartext_char_id = ''.join(cleartext_char_list)
+    seven_char_id_baudot = convert_baudot(seven_char_id)
 
-    orbitography_dict['beacon_id_text']['value'] = cleartext_char_id
+    orbitography_dict['beacon_id_text']['value'] = seven_char_id_baudot
     orbitography_dict['beacon_id_text']['raw_value'] = seven_char_id.bin
     orbitography_dict['trail_bits']['raw_value'] = last_four_zeros.bin
 
     return orbitography_dict
+
+
+def parse_EPIRB_maritime_user_protocol(beacon_id: BitArray):
+    epirb_dict = deepcopy(EPIRB_MARITIME_USER_PROTOCOL)
+
+    truncated_MMSI = beacon_id[14:50]
+    specific_beacon = beacon_id[50:56]
+    spare_bits = beacon_id[56:58]
+    auxiliary_device = beacon_id[58:60]
+
+    mmsi_baudot = convert_baudot(truncated_MMSI)
+    specific_beacon_baudot = convert_baudot(specific_beacon)
+
+    epirb_dict['truncated_mmsi']['value'] = mmsi_baudot
+    epirb_dict['truncated_mmsi']['raw_value'] = truncated_MMSI.bin
+    epirb_dict['specific_beacon_number']['value'] = specific_beacon_baudot
+    epirb_dict['specific_beacon_number']['raw_value'] = specific_beacon.bin
+    epirb_dict['spare']['raw_value'] = spare_bits.bin
+    epirb_dict['auxiliary_device_type']['value'] = AUXILIAR_DEVICE_TYPE_lt[auxiliary_device.bin]
+    epirb_dict['auxiliary_device_type']['raw_value'] = auxiliary_device.bin
+
+    return epirb_dict
 
 def not_implemented(beacon_id: BitArray):
     return {}
@@ -131,6 +164,11 @@ PROTOCOL_CODES = {
     {
         "name": "Orbitography Protocol",
         "parse_function": parse_orbitography_protocol,
+    },
+    "010":
+    {
+        "name": "EPIRB - Maritime User Protocol",
+        "parse_function": parse_EPIRB_maritime_user_protocol,
     },
     "1110":
     {

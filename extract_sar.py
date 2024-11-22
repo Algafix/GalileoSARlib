@@ -71,15 +71,17 @@ parser = argparse.ArgumentParser(description='Parse the Galileo I/NAV message fo
 parser.add_argument('in_file', nargs='?', default='24_hours.sbf')
 parser.add_argument('out_file', nargs='?', default='sar_output.json')
 parser.add_argument('-s', '--skip-test', action='store_true', help="don't show the Test Service messages")
+parser.add_argument('-u', '--unknown-protocols', action='store_true', help="create different file with all the unknown protocols")
 args = parser.parse_args()
 
 if __name__ == '__main__':
 
     sbf_iterator = SBF(args.in_file)
 
-    stored_sar_messages = []
     sar_manager_svid = [SARMessage(svid) for svid in range(37)]
-    
+    stored_sar_messages = []
+    stored_unknown_protocol_sar_messages = []
+
     for sar_data in sbf_iterator:
 
         if not sar_data.is_nominal_page:
@@ -91,7 +93,12 @@ if __name__ == '__main__':
             stored_sar_messages.append(sar_message)
             if args.skip_test and sar_message['message_code']['value'] == MESSAGE_CODES.TEST_SERVICE.name:
                 continue
+            if args.unknown_protocols and sar_message['beacon_id_parsing_subblock']['protocol_code']['value'] == 'Unknown':
+                stored_unknown_protocol_sar_messages.append(sar_message)
             print_sar_message(sar_message)
 
-    json.dump(stored_sar_messages, open(args.out_file, 'w'), indent=2)
+    if args.unknown_protocols:
+        filename = args.out_file[:args.out_file.rfind('.')] + '_unknown_protocols.json'
+        json.dump(stored_unknown_protocol_sar_messages, open(filename, 'w'), indent=2)
 
+    json.dump(stored_sar_messages, open(args.out_file, 'w'), indent=2)

@@ -14,27 +14,36 @@ import matplotlib.pyplot as plt
 FILENAME = "./raw_data/2024-07-12.json"
 FILENAME = "./raw_data/2024-08-25.json"
 FILENAME = "./raw_data/2024-08-24.json"
+FILENAME = "./raw_data/2024-11-17.json"
 
 sar_messages = {}
 sar_protocols = {}
+sar_by_message_code = {}
 rls_beacon_types = {}
 rls_by_country_code = {}
 
 with open(FILENAME, 'r') as fd:
     all_sar_json = json.load(fd)
 
+################################
+# Create a dictionary by message type and another by protocol
+
 for sar_message in all_sar_json:
 
-    message = sar_message['message_code']['value']
+    message_code = sar_message['message_code']['value']
     protocol = sar_message['beacon_id_parsing_subblock']['protocol_code']['value']
 
-    if message not in sar_messages:
-        sar_messages[message] = 0
+    if message_code not in sar_messages:
+        sar_messages[message_code] = 0
     if protocol not in sar_protocols:
         sar_protocols[protocol] = 0
+    if message_code not in sar_by_message_code:
+        sar_by_message_code[message_code] = []
 
-    sar_messages[message] += 1
+
+    sar_messages[message_code] += 1
     sar_protocols[protocol] += 1
+    sar_by_message_code[message_code].append(sar_message)
 
     if protocol == 'RLS Location Protocol':
         beacon_type = sar_message['beacon_id_parsing_subblock']['beacon_type']['value']
@@ -45,9 +54,30 @@ for sar_message in all_sar_json:
             rls_beacon_types[beacon_type][country_code] = 0
         rls_beacon_types[beacon_type][country_code] += 1
 
-plt.figure()
-plt.title(f"SAR messages received by message type")
-plt.pie(sar_messages.values(), labels=sar_messages.keys(), autopct='%1.1f%%')
+################################
+# Get protocols for TEST and ACK message types
+
+def extract_protocols(message_code, sar_by_message_code):
+    protocols_count = {}
+    for sar_message in sar_by_message_code[message_code]:
+        protocol = sar_message['beacon_id_parsing_subblock']['protocol_code']['value']
+        try:
+            protocols_count[protocol] += 1
+        except KeyError:
+            protocols_count[protocol] = 0
+    return protocols_count
+
+test_protocols = extract_protocols("TEST_SERVICE", sar_by_message_code)
+ack_protocols = extract_protocols("ACK_SERVICE", sar_by_message_code)
+
+fig, axs = plt.subplots(3, 1, figsize=(5,9))
+fig.suptitle(f"SAR messages received by message type")
+axs[0].pie(sar_messages.values(), labels=sar_messages.keys(), autopct='%1.1f%%')
+axs[0].set_title('by service')
+axs[1].pie(test_protocols.values(), labels=test_protocols.keys(), autopct='%1.1f%%')
+axs[1].set_title('Protocols in TEST SERVICE')
+axs[2].pie(ack_protocols.values(), labels=ack_protocols.keys(), autopct='%1.1f%%')
+axs[2].set_title('Protocols in ACK SERVICE')
 plt.tight_layout()
 
 ################################
