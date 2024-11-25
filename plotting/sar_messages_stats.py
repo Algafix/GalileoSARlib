@@ -5,11 +5,16 @@
 # - RLS Location messages by beacon type (Test, PLB, EPIRB...)
 # - RLS Location messages by country code
 ###########################################################################
+import sys
+sys.path.insert(0, '.')
 
 import json
 
 import numpy as np
 import matplotlib.pyplot as plt
+
+from bitstring import BitArray
+from aux.protocol_parsing import convert_baudot
 
 FILENAME = "./raw_data/2024-07-12.json"
 FILENAME = "./raw_data/2024-08-25.json"
@@ -21,6 +26,7 @@ sar_protocols = {}
 sar_by_message_code = {}
 rls_beacon_types = {}
 rls_by_country_code = {}
+strange_messages = {}
 
 with open(FILENAME, 'r') as fd:
     all_sar_json = json.load(fd)
@@ -29,6 +35,17 @@ with open(FILENAME, 'r') as fd:
 # Create a dictionary by message type and another by protocol
 
 for sar_message in all_sar_json:
+
+    # Some strange test messages, skip further processing if thats the case
+    if sar_message['beacon_id']['raw_value'][:5] == 'aaaaa':
+        beacon_id = sar_message['beacon_id']['raw_value']
+        msg = convert_baudot(BitArray(hex=beacon_id[5:])[:-4])
+        try:
+            strange_messages[msg] += 1
+        except KeyError:
+            strange_messages[msg] = 0
+        continue
+
 
     message_code = sar_message['message_code']['value']
     protocol = sar_message['beacon_id_parsing_subblock']['protocol_code']['value']
@@ -39,7 +56,6 @@ for sar_message in all_sar_json:
         sar_protocols[protocol] = 0
     if message_code not in sar_by_message_code:
         sar_by_message_code[message_code] = []
-
 
     sar_messages[message_code] += 1
     sar_protocols[protocol] += 1
@@ -85,6 +101,13 @@ plt.tight_layout()
 plt.figure()
 plt.title(f"SAR messages received by protocol type")
 plt.pie(sar_protocols.values(), labels=sar_protocols.keys(), autopct='%1.1f%%')
+plt.tight_layout()
+
+################################
+
+plt.figure()
+plt.title(f"Strange messages with Beacon ID starting with: AAAAA")
+plt.bar(strange_messages.keys(), strange_messages.values())
 plt.tight_layout()
 
 ################################

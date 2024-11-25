@@ -105,6 +105,25 @@ def plot_reception_time_offset_of_messages_from_base_station_in_1min(station_msg
     str_unique_tows = [str(unique_tow) for unique_tow in unique_tows]
     plt.bar(str_unique_tows, counts)
 
+def plot_messages_by_ground_station(orbitography_by_ground_station: dict):
+    plt.figure()
+    plt.title(f"Orbitography by ground station")
+    plt.grid()
+    plt.ylabel('Ground Station')
+    plt.xlabel('ToW')
+
+    station_order = ['MSP-EU4', 'LNC-EU5', 'REU-EU7', 'SON-EU6', 'SMR-EU3', 'TLS-EU1', 'SBG-EU2', 'KLN-EU8', 'V?????E']
+    sorted_dict = {}
+    for station_name in reversed(station_order):
+        sorted_dict[station_name] = orbitography_by_ground_station[station_name]
+    y_values = range(len(sorted_dict))
+    y_names = sorted_dict.keys()
+    for msgs_dict, y_value in zip(sorted_dict.values(), y_values):
+        tows = msgs_dict['tow']
+        plt.plot(tows, [y_value]*len(tows), 'x')
+    plt.yticks(y_values, y_names)
+
+
 # ================================================= #
 
 if __name__== '__main__':
@@ -143,18 +162,18 @@ if __name__== '__main__':
     plot_messages_for_each_satellite_and_station(orbitography_by_ground_station, country_of_station)
     plot_total_messages_for_each_satellite(orbitography_by_svid)
     plot_total_messages_for_each_satellite_and_station(orbitography_by_ground_station, country_of_station)
+    plot_messages_by_ground_station(orbitography_by_ground_station)
     plot_heatmat_mgs_offset([station["tow"] for station in orbitography_by_ground_station.values()],
                             len(orbitography_by_ground_station),
                             orbitography_by_ground_station,
                             "Ground Stations",
                             "Orbitography message reception time in 60 seconds modulus by ground station")
 
-
-    for station_name, station_msgs in orbitography_by_ground_station.items():
-        country = country_of_station[station_name]
-        plot_messages_for_each_satellite_from_base_station(station_msgs, station_name, country)
-        plot_all_messages_from_base_station(station_msgs, station_name, country)
-        plot_histogram_of_time_between_messages_from_base_station(station_msgs, station_name, country)
-        plot_reception_time_offset_of_messages_from_base_station_in_1min(station_msgs, station_name, country)
+    # for station_name, station_msgs in orbitography_by_ground_station.items():
+    #     country = country_of_station[station_name]
+    #     plot_messages_for_each_satellite_from_base_station(station_msgs, station_name, country)
+    #     plot_all_messages_from_base_station(station_msgs, station_name, country)
+    #     plot_histogram_of_time_between_messages_from_base_station(station_msgs, station_name, country)
+    #     plot_reception_time_offset_of_messages_from_base_station_in_1min(station_msgs, station_name, country)
 
     plt.show()
