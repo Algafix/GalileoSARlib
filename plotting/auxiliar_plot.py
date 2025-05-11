@@ -10,7 +10,7 @@ def _norm_by_row(m):
                                 where=rows_max_magnitude!=0)
     return row_normalized_m
 
-def plot_heatmat_mgs_offset(sar_by_svid_matrix, max_y_axis, y_ticks, y_label, title, log_norm=False):
+def plot_heatmat_mgs_offset(sar_by_svid_matrix, max_y_axis, y_ticks, y_label, title, txt, log_norm=False):
 
     sar_by_svid_matrix = list(sar_by_svid_matrix)
 
@@ -36,6 +36,8 @@ def plot_heatmat_mgs_offset(sar_by_svid_matrix, max_y_axis, y_ticks, y_label, ti
     plt.xticks(np.arange(30) + 0.5, [str(i) for i in np.arange(1,61,2)])
     plt.ylabel(y_label)
     plt.xlabel(f"Reception time of the last page of the SAR message (s)")
-    plt.tight_layout()
+    
     plt.colorbar()
+    plt.figtext(0.5, 0.01, txt, wrap=True, horizontalalignment='center', fontsize=8)
+    plt.tight_layout()
 

@@ -18,6 +18,11 @@ orbitography_by_svid = {svid:[] for svid in ALL_GAL_SATS}
 rls_by_svid = {svid:[] for svid in ALL_GAL_SATS}
 
 for sar_message in all_sar_json:
+
+    # Some strange test messages, skip further processing if thats the case
+    if sar_message['beacon_id']['raw_value'][:5] == 'aaaaa':
+        continue
+
     protocol = sar_message['beacon_id_parsing_subblock']['protocol_code']['value']
     svid = int(sar_message['metadata']['svid'])
     tow = sar_message['metadata']['tow']
@@ -59,13 +64,15 @@ plot_heatmat_mgs_offset(orbitography_by_svid.values(),
                         MAX_GAL_SATS,
                         [str(svid) for svid in ALL_GAL_SATS],
                         "SVID",
-                        "Orbitography message reception time in 60 seconds modulus (normalized per row)")
+                        "Orbitography message reception time in 60 seconds modulus (24h)",
+                        "Caption: All satellites send the messages for the Orbitography protocol on the second 29 but SVID 11 and 12, which are also the oldest satellites")
 
 plot_heatmat_mgs_offset(rls_by_svid.values(), 
                         MAX_GAL_SATS, 
                         [str(svid) for svid in ALL_GAL_SATS],
                         "SVID",
-                        "RLS message reception time in 60 seconds modulus (normalized per row)")
+                        "RLS message reception time in 60 seconds modulus (24h)",
+                        "Caption: All satellites send the messages for the RLS protocol on the second 13 but SVID 11 and 12, which are also the oldest satellites")
 
 
 Orb29_RLS = 0
