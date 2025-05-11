@@ -167,7 +167,8 @@ if __name__== '__main__':
                             len(orbitography_by_ground_station),
                             orbitography_by_ground_station,
                             "Ground Stations",
-                            "Orbitography message reception time in 60 seconds modulus by ground station")
+                            "Orbitography message reception time in 60 seconds modulus by ground station",
+                            "Caption")
 
     # for station_name, station_msgs in orbitography_by_ground_station.items():
     #     country = country_of_station[station_name]
