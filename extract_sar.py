@@ -14,12 +14,14 @@ class SARMessage:
     def __init__(self, svid: int) -> None:
         self.current_message = BitArray()
         self.rlm_id = RLM(0)
+        self.start_gst = GST(wn=0, tow=0)
         self.last_gst = GST(wn=0, tow=0)
         self.svid = svid
 
     def _start_message(self, sar_data: SARFormat):
         self.current_message.clear()
         self.rlm_id = sar_data.rlm_id
+        self.start_gst = sar_data.gst
         self.last_gst = sar_data.gst
         self.current_message.append(sar_data.rlm_data)
 
@@ -51,15 +53,15 @@ class SARMessage:
         SRLM_params = self.current_message[64:]
 
         sar_message_dict = deepcopy(BASE_SAR_MESSAGE)
-        sar_message_dict['metadata']['wn'] = self.last_gst.wn
-        sar_message_dict['metadata']['tow'] = self.last_gst.tow
-        sar_message_dict['metadata']['utc'] = self.last_gst.utc.strftime('%Y/%m/%d %H:%M:%S')
+        sar_message_dict['metadata']['wn'] = self.start_gst.wn
+        sar_message_dict['metadata']['tow'] = self.start_gst.tow
+        sar_message_dict['metadata']['utc'] = self.start_gst.utc.strftime('%Y/%m/%d %H:%M:%S')
         sar_message_dict['metadata']['svid'] = f"{self.svid:02d}"
         sar_message_dict['rlm_id']['value'] = self.rlm_id.name
         sar_message_dict['rlm_id']['raw_value'] = self.rlm_id.value
         sar_message_dict['beacon_id']['raw_value'] = beacon_id.hex
         sar_message_dict['message_code']['value'] = message_code.name
-        sar_message_dict['message_code']['raw_value'] = message_code.value
+        sar_message_dict['message_code']['raw_value'] = self.current_message[60:64].bin
         sar_message_dict['rlm_params']['raw_value'] = SRLM_params.bin
 
         sar_message_dict['beacon_id_parsing_subblock'] = parse_beacon_id(beacon_id)

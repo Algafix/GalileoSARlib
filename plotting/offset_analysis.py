@@ -2,114 +2,124 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 
-from auxiliar_plot import plot_heatmat_mgs_offset
+from auxiliar_plot import plot_heatmat_mgs_offset, plot_histogram_msg_offset
 
-FILENAME = "./raw_data/2024-07-12.json"
-FILENAME = "./raw_data/2024-08-25.json"
-FILENAME = "./raw_data/2024-08-24.json"
-FILENAME = "./raw_data/2024-11-17.json"
+FILENAME = "./raw_data/sept100.json"
+#FILENAME = "./SAR_DATA/ENC25_sar_3_months.json"
+
 MAX_GAL_SATS = 36
 ALL_GAL_SATS = np.arange(1, MAX_GAL_SATS+1)
 
 with open(FILENAME, 'r') as fd:
     all_sar_json = json.load(fd)
 
-orbitography_by_svid = {svid:[] for svid in ALL_GAL_SATS}
-rls_by_svid = {svid:[] for svid in ALL_GAL_SATS}
+short_spare_by_svid = {svid:[] for svid in ALL_GAL_SATS}
+short_orbitography_by_svid = {svid:[] for svid in ALL_GAL_SATS}
+short_rls_loc_by_svid = {svid:[] for svid in ALL_GAL_SATS}
+long_spare_by_svid = {svid:[] for svid in ALL_GAL_SATS}
 
 for sar_message in all_sar_json:
 
     # Some strange test messages, skip further processing if thats the case
     if sar_message['beacon_id']['raw_value'][:5] == 'aaaaa':
         continue
-
-    protocol = sar_message['beacon_id_parsing_subblock']['protocol_code']['value']
+    
     svid = int(sar_message['metadata']['svid'])
     tow = sar_message['metadata']['tow']
 
-    if protocol == 'RLS Location Protocol':
-        rls_by_svid[svid].append(tow)
-    elif protocol == 'Orbitography Protocol':
-        orbitography_by_svid[svid].append(tow)
+    if sar_message['rlm_id']['value'] == 'SHORT_RLM':
+        # Short RLM messages
+        if sar_message['message_code']['value'] == 'SPARE':
+            short_spare_by_svid[svid].append(tow)
+        else:
+            protocol = sar_message['beacon_id_parsing_subblock']['protocol_code']['value']
+            if protocol == 'RLS Location Protocol':
+                short_rls_loc_by_svid[svid].append(tow)
+            elif protocol == 'Orbitography Protocol':
+                short_orbitography_by_svid[svid].append(tow)
+            else:
+                print(f"Protocol not contemplated! {protocol}")
     else:
-        print(f"Protocol not contemplated! {protocol}")
-        continue
+        # Long RLM messages
+        if sar_message['message_code']['value'] == 'SPARE':
+            long_spare_by_svid[svid].append(tow)
+        else:
+            print(f"Message code for Long RLM not spare! {sar_message['message_code']['value']}")
 
-plt.figure(figsize=(9,6))
-plt.title(f"RLS - Reception time offset within 2 subframes period")
-plt.xlabel("Seconds in GNSS Time")
-plt.ylabel("Number of messages")
-tows_mod_60_sec = []
-for svid in ALL_GAL_SATS:
-    tows_mod_60_sec.extend([tow % 60 for tow in rls_by_svid[svid]])
-unique_tows, counts = np.unique(tows_mod_60_sec, return_counts=True)
-str_unique_tows = [str(unique_tow) for unique_tow in unique_tows]
-plt.bar(str_unique_tows, counts)
-plt.tight_layout()
+plot_histogram_msg_offset(short_spare_by_svid,
+                          "Short RLM Spare - Transmission time offset within 2 subframes period")
 
-plt.figure(figsize=(9,6))
-plt.title(f"Orbitography - Reception time offset within 2 subframes period")
-plt.xlabel("Seconds in GNSS Time")
-plt.ylabel("Number of messages")
-tows_mod_60_sec = []
-for svid in ALL_GAL_SATS:
-    tows_mod_60_sec.extend([tow % 60 for tow in orbitography_by_svid[svid]])
-unique_tows, counts = np.unique(tows_mod_60_sec, return_counts=True)
-str_unique_tows = [str(unique_tow) for unique_tow in unique_tows]
-plt.bar(str_unique_tows, counts)
-plt.tight_layout()
+plot_histogram_msg_offset(short_rls_loc_by_svid,
+                          "RLS Location - Transmission time offset within 2 subframes period")
 
+plot_histogram_msg_offset(short_orbitography_by_svid,
+                          "Orbitography - Transmission time offset within 2 subframes period")
 
-plot_heatmat_mgs_offset(orbitography_by_svid.values(),
+plot_histogram_msg_offset(long_spare_by_svid,
+                          "Long RLM Spare - Transmission time offset within 2 subframes period")
+
+plot_heatmat_mgs_offset(short_spare_by_svid.values(),
                         MAX_GAL_SATS,
                         [str(svid) for svid in ALL_GAL_SATS],
                         "SVID",
-                        "Orbitography message reception time in 60 seconds modulus (24h)",
-                        "Caption: All satellites send the messages for the Orbitography protocol on the second 29 but SVID 11 and 12, which are also the oldest satellites")
+                        "Short RLM Spare message trasmission time in 60 seconds modulus",
+                        "Caption: ",
+                        log_norm=True)
 
-plot_heatmat_mgs_offset(rls_by_svid.values(), 
+plot_heatmat_mgs_offset(short_orbitography_by_svid.values(),
+                        MAX_GAL_SATS,
+                        [str(svid) for svid in ALL_GAL_SATS],
+                        "SVID",
+                        "Orbitography message trasmission time in 60 seconds modulus",
+                        "Caption: All satellites send the messages for the Orbitography protocol on the second 29 but SVID 11 and 12, which are also the oldest satellites",
+                        log_norm=True)
+
+plot_heatmat_mgs_offset(short_rls_loc_by_svid.values(), 
                         MAX_GAL_SATS, 
                         [str(svid) for svid in ALL_GAL_SATS],
                         "SVID",
-                        "RLS message reception time in 60 seconds modulus (24h)",
-                        "Caption: All satellites send the messages for the RLS protocol on the second 13 but SVID 11 and 12, which are also the oldest satellites")
+                        "RLS Location message transmission time in 60 seconds modulus",
+                        "Caption: All satellites send the messages for the RLS protocol on the second 13 but SVID 11 and 12, which are also the oldest satellites",
+                        log_norm=True)
 
+plot_heatmat_mgs_offset(long_spare_by_svid.values(),
+                        MAX_GAL_SATS,
+                        [str(svid) for svid in ALL_GAL_SATS],
+                        "SVID",
+                        "Long RLM reception time in 60 seconds modulus",
+                        "Caption: ",
+                        log_norm=True)
 
-Orb29_RLS = 0
-Orb29_noRLS = 0
-noOrb29_RLS = 0
-noOrb29_noRLS = 0
+# Check if the reason for deviation in Orbitography is the transmission of a RLM Location in the same minute
+# Orb23_RLS = 0
+# Orb23_noRLS = 0
+# noOrb23_RLS = 0
+# noOrb23_noRLS = 0
 
-for svid, orb_tows in orbitography_by_svid.items():
-    if svid in [11, 12]:
-        continue
+# for svid, orb_tows in short_orbitography_by_svid.items():
+#     if svid in [11, 12]:
+#         continue
 
-    for tow in orb_tows:
-        tow_mod60 = tow % 60
-        tow_range = range(tow - tow_mod60, tow - tow_mod60 + 60)
-        if tow_mod60 == 29:
-            if any([1 for rls_tow in rls_by_svid[svid] if rls_tow in tow_range]):
-                Orb29_RLS += 1
-            else:
-                Orb29_noRLS += 1
-        else:
-            if any([1 for rls_tow in rls_by_svid[svid] if rls_tow in tow_range]):
-                noOrb29_RLS += 1
-            else:
-                noOrb29_noRLS += 1
+#     for tow in orb_tows:
+#         tow_mod60 = tow % 60
+#         tow_range = range(tow - tow_mod60, tow - tow_mod60 + 60)
+#         if tow_mod60 == 23:
+#             if any([1 for rls_tow in short_rls_loc_by_svid[svid] if rls_tow in tow_range]):
+#                 Orb23_RLS += 1
+#             else:
+#                 Orb23_noRLS += 1
+#         else:
+#             if any([1 for rls_tow in short_rls_loc_by_svid[svid] if rls_tow in tow_range]):
+#                 noOrb23_RLS += 1
+#             else:
+#                 noOrb23_noRLS += 1
 
-print(f"""
-Orbito at 29, RLS same 60 seconds: {Orb29_RLS}
-Orbito at 29, no RLS same 60 seconds: {Orb29_noRLS}
-No Orbito at 29, RLS same 60 seconds: {noOrb29_RLS}
-No Orbito at 29, no RLS same 60 seconds: {noOrb29_noRLS}      
-""")
-
-
-            
-
-
-
+# print(f"""
+# Orbito at 23, RLS same 60 seconds: {Orb23_RLS}
+# Orbito at 23, no RLS same 60 seconds: {Orb23_noRLS}
+# No Orbito at 23, RLS same 60 seconds: {noOrb23_RLS}
+# No Orbito at 23, no RLS same 60 seconds: {noOrb23_noRLS}      
+# """)
 
 
 plt.show()
