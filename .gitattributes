@@ -1,0 +1,4 @@
+ENC25_DATA/ENC25_sar_3_months.json filter=lfs diff=lfs merge=lfs -text
+ENC25_DATA/ENC25_unknown_protocols.json filter=lfs diff=lfs merge=lfs -text
+ENC25_DATA/JSON/** filter=lfs diff=lfs merge=lfs -text
+ENC25_DATA/SBF/** filter=lfs diff=lfs merge=lfs -text
