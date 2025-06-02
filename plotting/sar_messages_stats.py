@@ -18,7 +18,7 @@ from aux.protocol_parsing import convert_baudot
 
 
 FILENAME = "./raw_data/sept100.json"
-#FILENAME = "./SAR_DATA/ENC25_sar_3_months.json"
+#FILENAME = "./ENC25_DATA/ENC25_sar_3_months.json"
 
 sar_messages = {}
 sar_protocols = {}

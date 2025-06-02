@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 from bitstring import BitArray
 
-FILENAME = "./SAR_DATA/ENC25_unknown_protocols.json"
+FILENAME = "./ENC25_DATA/ENC25_unknown_protocols.json"
 
 undefined_rls_dict = {
     "SHORT_RLM": {

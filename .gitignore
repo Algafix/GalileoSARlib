@@ -5,5 +5,7 @@
 .idea/
 **.sbf
 
-SAR_DATA/**
+ENC25_DATA/**.json
+ENC25_DATA/JSON/**
+ENC25_DATA/SBF/**
 

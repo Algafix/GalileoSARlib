@@ -9,13 +9,24 @@ The Galileo E1-B Return Link contemplates 2 types of service:
 
 Then, the Beacon-ID for each of these services contains partial data of a Cospas-Sarsat protocol. Currently, the following are supported:
 * Orbitography Protocol -> Transmitted in the `Test Service` 
-* RLS Location Protocol -> Transmitted in the `Acknowledgment Service Type-1`
+* RLS Location Protocol -> Transmitted in the `Acknowledgment Service Type-1` and `Test Service`
 
 If more protocols are seen in the future, we will implement them.
 
 Currently, we only support SBF files as input, but this will be extended.
 The parsed output of the library is displayed to console and saved into a json file.
 
+Documentation
+===
+
+You may be interested in the presentation given at the European Conference of Navigation 2025 on the analysis of 90 days of Galileo RLM.
+
+* [Presentation](ENC25_DATA/ENC25_SAR_presentation.pdf)
+* Paper (in progress)
+
+
+Use
+===
 
 ```
 usage: extract_sar.py [-h] [-s] [in_file] [out_file]

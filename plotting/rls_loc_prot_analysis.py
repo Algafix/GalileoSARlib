@@ -2,9 +2,8 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-#FILENAME = "./SAR_DATA/ENC25_sar_3_months.json"
 FILENAME = "./raw_data/sept100.json"
+#FILENAME = "./ENC25_DATA/ENC25_sar_3_months.json"
 
 with open(FILENAME, 'r') as fd:
     all_sar_json = json.load(fd)

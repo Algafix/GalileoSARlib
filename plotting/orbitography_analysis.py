@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from auxiliar_plot import plot_heatmat_mgs_offset
 
 FILENAME = "./raw_data/sept100.json"
-#FILENAME = "./SAR_DATA/ENC25_sar_3_months.json"
+#FILENAME = "./ENC25_DATA/ENC25_sar_3_months.json"
 
 MAX_GAL_SATS = 36
 IGNORE_TRAIL_BITS = True
