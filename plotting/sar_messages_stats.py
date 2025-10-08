@@ -130,8 +130,14 @@ def extract_protocols(message_code, sar_by_message_code):
             protocols_count[protocol] = 1
     return protocols_count
 
-test_protocols = extract_protocols("TEST_SERVICE", sar_by_message_code)
-ack_protocols = extract_protocols("ACK_SERVICE", sar_by_message_code)
+try:
+    test_protocols = extract_protocols("TEST_SERVICE", sar_by_message_code)
+except KeyError:
+    test_protocols = {}
+try:    
+    ack_protocols = extract_protocols("ACK_SERVICE", sar_by_message_code)
+except KeyError:
+    ack_protocols = {}
 
 print(test_protocols)
 print(ack_protocols)
