@@ -1,0 +1,6366 @@
+[
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119691,
+      "utc": "2025/07/07 09:14:33",
+      "svid": "08"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119691,
+      "utc": "2025/07/07 09:14:33",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119737,
+      "utc": "2025/07/07 09:15:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119737,
+      "utc": "2025/07/07 09:15:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119797,
+      "utc": "2025/07/07 09:16:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119797,
+      "utc": "2025/07/07 09:16:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119857,
+      "utc": "2025/07/07 09:17:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119857,
+      "utc": "2025/07/07 09:17:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119917,
+      "utc": "2025/07/07 09:18:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119917,
+      "utc": "2025/07/07 09:18:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119977,
+      "utc": "2025/07/07 09:19:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 119977,
+      "utc": "2025/07/07 09:19:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120037,
+      "utc": "2025/07/07 09:20:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120037,
+      "utc": "2025/07/07 09:20:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120097,
+      "utc": "2025/07/07 09:21:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120097,
+      "utc": "2025/07/07 09:21:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120157,
+      "utc": "2025/07/07 09:22:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120217,
+      "utc": "2025/07/07 09:23:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120277,
+      "utc": "2025/07/07 09:24:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120337,
+      "utc": "2025/07/07 09:25:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120337,
+      "utc": "2025/07/07 09:25:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120397,
+      "utc": "2025/07/07 09:26:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120397,
+      "utc": "2025/07/07 09:26:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120457,
+      "utc": "2025/07/07 09:27:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120457,
+      "utc": "2025/07/07 09:27:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120517,
+      "utc": "2025/07/07 09:28:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120577,
+      "utc": "2025/07/07 09:29:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120577,
+      "utc": "2025/07/07 09:29:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120591,
+      "utc": "2025/07/07 09:29:33",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120637,
+      "utc": "2025/07/07 09:30:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120637,
+      "utc": "2025/07/07 09:30:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120637,
+      "utc": "2025/07/07 09:30:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120637,
+      "utc": "2025/07/07 09:30:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120697,
+      "utc": "2025/07/07 09:31:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120697,
+      "utc": "2025/07/07 09:31:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120697,
+      "utc": "2025/07/07 09:31:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120757,
+      "utc": "2025/07/07 09:32:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120757,
+      "utc": "2025/07/07 09:32:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120757,
+      "utc": "2025/07/07 09:32:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120757,
+      "utc": "2025/07/07 09:32:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120817,
+      "utc": "2025/07/07 09:33:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120817,
+      "utc": "2025/07/07 09:33:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120877,
+      "utc": "2025/07/07 09:34:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120877,
+      "utc": "2025/07/07 09:34:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120937,
+      "utc": "2025/07/07 09:35:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120937,
+      "utc": "2025/07/07 09:35:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120937,
+      "utc": "2025/07/07 09:35:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120997,
+      "utc": "2025/07/07 09:36:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120997,
+      "utc": "2025/07/07 09:36:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120997,
+      "utc": "2025/07/07 09:36:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 120997,
+      "utc": "2025/07/07 09:36:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121057,
+      "utc": "2025/07/07 09:37:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121057,
+      "utc": "2025/07/07 09:37:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121117,
+      "utc": "2025/07/07 09:38:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121117,
+      "utc": "2025/07/07 09:38:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121117,
+      "utc": "2025/07/07 09:38:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121177,
+      "utc": "2025/07/07 09:39:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121177,
+      "utc": "2025/07/07 09:39:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121177,
+      "utc": "2025/07/07 09:39:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121237,
+      "utc": "2025/07/07 09:40:19",
+      "svid": "14"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121237,
+      "utc": "2025/07/07 09:40:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121237,
+      "utc": "2025/07/07 09:40:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121297,
+      "utc": "2025/07/07 09:41:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121297,
+      "utc": "2025/07/07 09:41:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121297,
+      "utc": "2025/07/07 09:41:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121357,
+      "utc": "2025/07/07 09:42:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121357,
+      "utc": "2025/07/07 09:42:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121357,
+      "utc": "2025/07/07 09:42:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121417,
+      "utc": "2025/07/07 09:43:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121417,
+      "utc": "2025/07/07 09:43:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121417,
+      "utc": "2025/07/07 09:43:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121477,
+      "utc": "2025/07/07 09:44:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121477,
+      "utc": "2025/07/07 09:44:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121477,
+      "utc": "2025/07/07 09:44:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121477,
+      "utc": "2025/07/07 09:44:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121537,
+      "utc": "2025/07/07 09:45:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121537,
+      "utc": "2025/07/07 09:45:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121537,
+      "utc": "2025/07/07 09:45:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121537,
+      "utc": "2025/07/07 09:45:19",
+      "svid": "15"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121591,
+      "utc": "2025/07/07 09:46:13",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121597,
+      "utc": "2025/07/07 09:46:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121597,
+      "utc": "2025/07/07 09:46:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121597,
+      "utc": "2025/07/07 09:46:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121639,
+      "utc": "2025/07/07 09:47:01",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121657,
+      "utc": "2025/07/07 09:47:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121657,
+      "utc": "2025/07/07 09:47:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121663,
+      "utc": "2025/07/07 09:47:25",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121717,
+      "utc": "2025/07/07 09:48:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121717,
+      "utc": "2025/07/07 09:48:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121777,
+      "utc": "2025/07/07 09:49:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121777,
+      "utc": "2025/07/07 09:49:19",
+      "svid": "13"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121777,
+      "utc": "2025/07/07 09:49:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121837,
+      "utc": "2025/07/07 09:50:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121837,
+      "utc": "2025/07/07 09:50:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121837,
+      "utc": "2025/07/07 09:50:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121863,
+      "utc": "2025/07/07 09:50:45",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121875,
+      "utc": "2025/07/07 09:50:57",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121879,
+      "utc": "2025/07/07 09:51:01",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121895,
+      "utc": "2025/07/07 09:51:17",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121897,
+      "utc": "2025/07/07 09:51:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121897,
+      "utc": "2025/07/07 09:51:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121897,
+      "utc": "2025/07/07 09:51:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121911,
+      "utc": "2025/07/07 09:51:33",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121923,
+      "utc": "2025/07/07 09:51:45",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121927,
+      "utc": "2025/07/07 09:51:49",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121939,
+      "utc": "2025/07/07 09:52:01",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121943,
+      "utc": "2025/07/07 09:52:05",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121947,
+      "utc": "2025/07/07 09:52:09",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121955,
+      "utc": "2025/07/07 09:52:17",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121957,
+      "utc": "2025/07/07 09:52:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121963,
+      "utc": "2025/07/07 09:52:25",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121971,
+      "utc": "2025/07/07 09:52:33",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121995,
+      "utc": "2025/07/07 09:52:57",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 121995,
+      "utc": "2025/07/07 09:52:57",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122011,
+      "utc": "2025/07/07 09:53:13",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122017,
+      "utc": "2025/07/07 09:53:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122017,
+      "utc": "2025/07/07 09:53:19",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122017,
+      "utc": "2025/07/07 09:53:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122027,
+      "utc": "2025/07/07 09:53:29",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122043,
+      "utc": "2025/07/07 09:53:45",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122055,
+      "utc": "2025/07/07 09:53:57",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122077,
+      "utc": "2025/07/07 09:54:19",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122077,
+      "utc": "2025/07/07 09:54:19",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122077,
+      "utc": "2025/07/07 09:54:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122077,
+      "utc": "2025/07/07 09:54:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122115,
+      "utc": "2025/07/07 09:54:57",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122115,
+      "utc": "2025/07/07 09:54:57",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122137,
+      "utc": "2025/07/07 09:55:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122137,
+      "utc": "2025/07/07 09:55:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122137,
+      "utc": "2025/07/07 09:55:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122175,
+      "utc": "2025/07/07 09:55:57",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122175,
+      "utc": "2025/07/07 09:55:57",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122197,
+      "utc": "2025/07/07 09:56:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122197,
+      "utc": "2025/07/07 09:56:19",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122197,
+      "utc": "2025/07/07 09:56:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122247,
+      "utc": "2025/07/07 09:57:09",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122247,
+      "utc": "2025/07/07 09:57:09",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122257,
+      "utc": "2025/07/07 09:57:19",
+      "svid": "03"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122257,
+      "utc": "2025/07/07 09:57:19",
+      "svid": "07"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122263,
+      "utc": "2025/07/07 09:57:25",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122295,
+      "utc": "2025/07/07 09:57:57",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122295,
+      "utc": "2025/07/07 09:57:57",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122317,
+      "utc": "2025/07/07 09:58:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122317,
+      "utc": "2025/07/07 09:58:19",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122317,
+      "utc": "2025/07/07 09:58:19",
+      "svid": "31"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122355,
+      "utc": "2025/07/07 09:58:57",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000006d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000001"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122377,
+      "utc": "2025/07/07 09:59:19",
+      "svid": "26"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  },
+  {
+    "metadata": {
+      "wn": 2374,
+      "tow": 122377,
+      "utc": "2025/07/07 09:59:19",
+      "svid": "23"
+    },
+    "rlm_id": {
+      "name": "RLM Identifier",
+      "value": "LONG_RLM",
+      "raw_value": 1
+    },
+    "beacon_id": {
+      "name": "Beacon ID",
+      "raw_value": "000002d00c4c115"
+    },
+    "message_code": {
+      "name": "Message Code",
+      "value": "SPARE",
+      "raw_value": "0101"
+    },
+    "rlm_params": {
+      "name": "SRL Parameters",
+      "raw_value": "100000000001000101011101110110101100000011101000010110001011001000000000000010110000000000000000"
+    },
+    "beacon_id_parsing_subblock": {
+      "protocol_flag": {
+        "name": "Protocol Type",
+        "value": "Standard or national location protocols",
+        "raw_value": 0
+      },
+      "country_code": {
+        "name": "Country Code",
+        "value": "Unknown",
+        "raw_value": 0
+      },
+      "protocol_code": {
+        "name": "Protocol Code",
+        "value": "Unknown",
+        "raw_value": "0000"
+      }
+    }
+  }
+]
