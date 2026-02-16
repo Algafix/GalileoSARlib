@@ -1,0 +1,53 @@
+
+cff-version: 1.2.0
+title: 'GalileoSARlib'
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: 'Aleix'
+    family-names: 'Galan-Figueras'
+    email: 'aleix.galan@kuleuven.be'
+    affiliation: 'KU Leuven'
+    orcid: 'https://orcid.org/0000-0002-5762-6982'
+  - given-names: 'Ignacio'
+    family-names: 'Fernandez-Hernandez'
+    affiliation: 'European Commission'
+    orcid: 'https://orcid.org/0000-0002-9308-1668'
+repository-code: 'https://github.com/Algafix/GalileoSARlib'
+url: 'https://github.com/Algafix/GalileoSARlib'
+abstract: >-
+  GalileoSARlib is a Python library designed to facilitate the processing 
+  and analysis of data from the Galileo Search and Rescue (SAR) Return Link Service (RLS). 
+  It provides tools for decoding, analyzing, and visualizing the SAR Return Link Message (RLM) information, 
+  enabling researchers and practitioners to effectively utilize the data encoded in the navigation bits.
+keywords:
+  - GNSS
+  - Galileo
+  - Search and Rescue
+  - Return Link Service
+license: EUPL-1.2
+preferred-citation:
+  type: article
+  authors:
+    - given-names: 'Aleix'
+      family-names: 'Galan-Figueras'
+      email: 'aleix.galan@kuleuven.be'
+      affiliation: 'KU Leuven'
+      orcid: 'https://orcid.org/0000-0002-5762-6982'
+    - given-names: 'Ignacio'
+      family-names: 'Fernandez-Hernandez'
+      affiliation: 'European Commission'
+      orcid: 'https://orcid.org/0000-0002-9308-1668'
+    - given-names: 'Gonzalo'
+      family-names: 'Seco-Granados'
+      affiliation: 'Universitat Autonoma de Barcelona'
+      orcid: 'https://orcid.org/0000-0003-2494-6872'
+    - given-names: 'Sofie'
+      family-names: 'Pollin'
+      affiliation: 'KU Leuven'
+      orcid: 'https://orcid.org/0000-0002-1470-2076'
+  doi: '10.3390/engproc2026126013'
+  journal: 'Engineering Proceedings'
+  title: 'Analysis of the Galileo SAR Return Link Service Using the GalileoSARlib Open-Source Library'
+  volume: 126
+  year: 2026

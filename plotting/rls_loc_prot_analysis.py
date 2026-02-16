@@ -74,8 +74,10 @@ outer_colors = cmap([1,4,8])
 inner_colors = cmap([2,5,9,10,11])
 size = 0.3
 
+total_rls_beacon_types = [sum(countries.values()) for countries in rls_beacon_types.values()]
+
 plt.pie(
-    [sum(countries.values()) for countries in rls_beacon_types.values()],
+    total_rls_beacon_types,
     labels=rls_beacon_types.keys(),
     radius=1,
     autopct='%1.1f%%',
