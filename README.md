@@ -4,11 +4,13 @@ GalileoSARlib
 GalileoSARlib is an open-source Python library that can be used for research purposes on the Search and Rescue return link provided by Galileo in the E1-B signal.
 
 The Galileo E1-B Return Link contemplates 2 types of service:
+
 * Short-RLM: `Acknowledgment Service Type-1`
 * Short-RLM: `Test Service`
 
 Then, the Beacon-ID for each of these services contains partial data of a Cospas-Sarsat protocol. Currently, the following are supported:
-* Orbitography Protocol -> Transmitted in the `Test Service` 
+
+* Orbitography Protocol -> Transmitted in the `Test Service`
 * RLS Location Protocol -> Transmitted in the `Acknowledgment Service Type-1` and `Test Service`
 
 If more protocols are seen in the future, we will implement them.
@@ -17,18 +19,17 @@ Currently, we only support SBF files as input, but this will be extended.
 The parsed output of the library is displayed to console and saved into a json file.
 
 Documentation
-===
+---
 
-You may be interested in the presentation given at the European Conference of Navigation 2025 on the analysis of 90 days of Galileo RLM.
+You may be interested in the presentation given at the European Conference of Navigation 2025 on the analysis of 90 days of the Galileo Return Link Service.
 
-* [Presentation](ENC25_DATA/ENC25_SAR_presentation.pdf)
-* Paper (in progress)
+* Paper: [local](ENC25_DATA/ENC25_SAR_paper.pdf) - [online](https://www.mdpi.com/2673-4591/126/1/13)
+* Slides: [local](ENC25_DATA/ENC25_SAR_presentation.pdf)
 
+Usage
+---
 
-Use
-===
-
-```
+```[shell]
 usage: extract_sar.py [-h] [-s] [in_file] [out_file]
 
 Parse the Galileo I/NAV message for E1-B to extract and parse the SAR information.
@@ -44,7 +45,7 @@ options:
 
 Example console output:
 
-```
+```[shell]
 2024/05/08 01:03:55 - 2313 263053 - SVID 09
         RLM Identifier: SHORT_RLM (0)
         Beacon ID: 2ddb2de67f3fdff
